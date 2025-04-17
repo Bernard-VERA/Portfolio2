@@ -1,0 +1,43 @@
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-secondary);
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--accent-color);
+  }
+  
+  .hero h3 {
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+  }
+  
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero h2 {
+      font-size: 1.5rem;
+    }
+  
+    .hero h3 {
+      font-size: 1.2rem;
+    }
+  }
