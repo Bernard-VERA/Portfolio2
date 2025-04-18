@@ -43,6 +43,10 @@
   transition: width 0.3s ease;
 }
 
+.navbar-brand button:hover {
+  color: var(--accent-color);
+}
+
 .navbar-brand button:hover::after {
   width: 100%;
 }
@@ -105,11 +109,20 @@
   transform: rotate(180deg);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .navbar {
     flex-direction: column;
     padding: 1rem;
     height: auto;
+  }
+
+  .navbar-brand {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .navbar-brand span {
+margin: auto;
   }
 
   .navbar-links {
