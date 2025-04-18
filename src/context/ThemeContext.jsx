@@ -28,7 +28,6 @@ export function ThemeProvider({ children }) {
 
 export function useTheme() {
     const theme = useContext(ThemeContext);
-    console.log("Valeur du contexte :", theme); // Vérification
     return theme;
   }
   
