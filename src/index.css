@@ -76,11 +76,14 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2.5rem;
   background: var(--accent-gradient);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: white; /* Fallback pour les navigateurs qui ne supportent pas */
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
+
 
 @keyframes gradient {
   0% { background-position: 0% 50%; }
