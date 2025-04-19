@@ -1,6 +1,7 @@
 .projects {
   width: 100%;
   max-width: 1200px;
+ 
   margin: 0 auto;
   padding: 2rem;
 }
@@ -13,7 +14,7 @@
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .project-card {
@@ -22,7 +23,7 @@
   overflow: hidden;
   box-shadow: 0 4px 20px var(--shadow-color);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(202, 198, 198, 0.7);
 }
 
 .project-card:hover {
@@ -32,11 +33,15 @@
 
 .project-image {
   width: 100%;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
+  object-position: top;
 }
 
 .project-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
   padding: 1.5rem;
 }
 
@@ -44,6 +49,12 @@
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
   color: var(--text-primary);
+}
+
+.project-text {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  text-align: left;
 }
 
 .project-tech {
@@ -56,15 +67,14 @@
   background: var(--accent-gradient);
   color: white;
   border: none;
-  padding: 0.8rem 1.5rem;
   border-radius: 8px;
   cursor: pointer;
   transition: transform 0.2s ease;
-  width: 100%;
 }
 
 .project-button:hover {
-  transform: translateY(-2px);
+  transform: scale(1.05);
+  box-shadow: 0 1px 5px var(--text-secondary);
 }
 
 .modal-overlay {
@@ -103,13 +113,13 @@
   color: var(--text-primary);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .projects-grid {
     grid-template-columns: 1fr;
   }

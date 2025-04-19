@@ -1,5 +1,6 @@
 .skills {
   width: 100%;
+  max-width: 1200px;
 }
 .skills-grid {
   display: grid;
