@@ -45,3 +45,9 @@ section:nth-child(odd) {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 900px) {
+  section {
+    padding: 10px; 
+  }
+}

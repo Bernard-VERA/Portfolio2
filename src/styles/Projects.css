@@ -1,7 +1,6 @@
 .projects {
   width: 100%;
   max-width: 1200px;
- 
   margin: 0 auto;
   padding: 2rem;
 }
@@ -23,7 +22,7 @@
   overflow: hidden;
   box-shadow: 0 4px 20px var(--shadow-color);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid rgba(202, 198, 198, 0.7);
+  border: 1px solid rgba(202, 198, 198, 0.5);
 }
 
 .project-card:hover {
@@ -32,10 +31,14 @@
 }
 
 .project-image {
-  width: 100%;
+  width: 94%;
+  margin-top: 3%;
   height: 300px;
   object-fit: cover;
   object-position: top;
+  border: 1px solid rgba(202, 198, 198, 0.5);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .project-content {
@@ -49,11 +52,13 @@
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
   color: var(--text-primary);
+  text-align: left;
 }
 
 .project-text {
   font-size: 1.1rem;
-  margin-bottom: 1rem;
+  text-align: left;
+  min-height: 50px;
   text-align: left;
 }
 
@@ -61,6 +66,7 @@
   font-size: 0.9rem;
   color: var(--text-secondary);
   margin-bottom: 1rem;
+  text-align: left;
 }
 
 .project-button {

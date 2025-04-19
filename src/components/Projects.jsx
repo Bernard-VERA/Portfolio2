@@ -3,14 +3,14 @@ import { useState } from 'react';
 import '../styles/Projects.css';
 
 const projectsData = [
-  { name: "Booki", text: "Site de location de logements", tech: "HTML - CSS", image: "/images/booki.webp" },
-  { name: "Sophie Bluel", text: "Portfolio d'architecte d'intérieur", tech: "HTML - CSS - Javascript", image: "/images/bluel.webp" },
-  { name: "Menu Maker", text: "Site de création de menus", tech: "Gestion de projet - Méthodes Agiles", image: "/images/qwenta.webp" },
+  { name: "Booki", text: "Site de location de logements de vacances", tech: "HTML - CSS", image: "/images/booki.webp" },
+  { name: "Sophie Bluel", text: "Portfolio d'une architecte d'intérieur", tech: "HTML - CSS - Javascript", image: "/images/bluel.webp" },
+  { name: "Menu Maker", text: "Site de création de menus de restaurant", tech: "Gestion de projet - Méthodes Agiles", image: "/images/qwenta.webp" },
   { name: "Nina Carducci", text: "Portfolio d'une photographe", tech: "Débogage - Optimisation - SEO", image: "/images/carducci.webp" },
   { name: "Kasa immobilier", text: "Site de location de logements", tech: "React - NodeJS - JSON", image: "/images/kasa.webp" },
   { name: "Mon vieux grimoire", text: "Site de notation de livres", tech: "React - NodeJS - MongoDB - API REST", image: "/images/grimoire.webp" },
-  { name: "Le clerc d'huissier", text: "Ancien site sur les clercs d'huissier", tech: "CMS - Gestion de site - Forum", image: "/images/huissier.webp" },
-  { name: "Commissaire de justice", text: "Nouveau site sur les clercs d'huissier", tech: "React - JSON - SEO", image: "/images/clerc.webp" },
+  { name: "Le clerc d'huissier", text: "Site sur les clercs d'huissier", tech: "CMS - Gestion de site - Forum", image: "/images/huissier.webp" },
+  { name: "Commissaire de justice", text: "Site sur les clercs de commissaire de justice", tech: "React - JSON - SEO", image: "/images/clerc.webp" },
   { name: "Photographe", text: "Site d'un photographe amateur", tech: "HTML - CSS - Javascript", image: "/images/photographe.webp" },
   { name: "Agence web BV", text: "Site d'une agence web", tech: "HTML - CSS - Scroll-Driven Animations", image: "/images/agence.webp" },
   { name: "To do list", text: "Une Todo List simple", tech: "HTML - CSS - Javascript", image: "/images/todo.webp" },
