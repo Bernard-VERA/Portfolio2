@@ -1,15 +1,17 @@
 import React from 'react';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
+import { TbBrandMongodb, TbSeo } from "react-icons/tb";
 import '../styles/Skills.css';
 
 const skillsData = [
-  { name: "HTML", level: 90 },
-  { name: "CSS", level: 90 },
-  { name: "JavaScript", level: 80 },
-  { name: "React", level: 75 },
-  { name: "Node", level: 70 },
-  { name: "MongoDB", level: 70 },
-  { name: "SEO", level: 90 },
-  { name: "GitHub", level: 85 },
+  { name: "HTML", icon: <FaHtml5 />, level: 90 },
+  { name: "CSS", icon: <FaCss3Alt />, level: 90 },
+  { name: "JavaScript", icon: <FaJs />, level: 80 },
+  { name: "React", icon: <FaReact />, level: 70 },
+  { name: "Node", icon: <FaNodeJs />, level: 60 },
+  { name: "MongoDB", icon: <TbBrandMongodb />, level: 70 },
+  { name: "SEO", icon: <TbSeo />, level: 90 },
+  { name: "GitHub", icon: <FaGithub />, level: 85 },
 ];
 
 
@@ -21,6 +23,7 @@ function Skills() {
       {skillsData.map((skill) => (
         <div key={skill.name} className="skill-card">
           <div className="infos">
+            <i className="icon">{skill.icon}</i>
             <h3>{skill.name}</h3>
             <span>{skill.level}%</span>
           </div>

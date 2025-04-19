@@ -24,16 +24,26 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 
 .skill-card h3 {
   margin: 10px 0;
-  font-size: 1.2em;
+  font-size: 1em;
+  align-content: center;
 }
 
+.skill-card i {
+  width: 32px;
+  height: 32px;
+  font-size: 1.8em;
+  font-weight: bold;
+  align-content: center;
+}
+
+
 .skill-card span {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: bold;
   align-content: center;
 }
