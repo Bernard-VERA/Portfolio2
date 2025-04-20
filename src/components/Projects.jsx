@@ -6,6 +6,7 @@ const projectsData = [
   {
     name: "Booki",
     tech: "HTML - CSS",
+    text: "Site de location de logements de vacances",
     image: "/images/booki.webp",
     links: {
       github: "https://github.com/votre-compte/booki",
@@ -26,8 +27,9 @@ const projectsData = [
     }
   },
   {
-    name: "Portfolio Sophie Bluel",
+    name: "Sophie Bluel",
     tech: "HTML - CSS - Javascript",
+    text: "Portfolio d'une architecte d'intérieur",
     image: "/images/bluel.webp",
     description: {
       overview: "Portfolio d'une architecte d'intérieur",
@@ -46,6 +48,7 @@ const projectsData = [
   {
     name: "Menu Maker",
     tech: "Gestion de projet - Méthodes Agiles",
+    text: "Site de création de menus de restaurant",
     image: "/images/qwenta.webp",
     description: {
       overview: "Gestion d'un projet de création de menus pour restaurants",
@@ -61,8 +64,9 @@ const projectsData = [
     }
   },
   {
-    name: "Portfolio Nina Carducci",
+    name: "Nina Carducci",
     tech: "Débogage - Optimisation - SEO",
+    text: "Portfolio d'une photographe",
     image: "/images/carducci.webp",
     description: {
       overview: "Portfolio d'une photographe professionnelle",
@@ -78,8 +82,9 @@ const projectsData = [
     }
   },
   {
-    name: "Kasa location immobilière",
+    name: "Kasa",
     tech: "React - NodeJS - JSON",
+    text: "Site de location de logements",
     image: "/images/kasa.webp",
     description: {
       overview: "Plateforme de location immobilière",
@@ -96,6 +101,7 @@ const projectsData = [
   {
     name: "Mon vieux grimoire",
     tech: "React - NodeJS - MongoDB - API REST",
+    text: "Site de notation de livres",
     image: "/images/grimoire.webp",
     description: {
       overview: "Site de notation de livres",
@@ -115,6 +121,7 @@ const projectsData = [
   {
     name: "Le clerc d'huissier",
     tech: "CMS - Gestion de site - Forum",
+    text: "Site sur les clercs d'huissier",
     image: "/images/huissier.webp",
     description: {
       overview: "Forum professionnel pour clercs d'huissier",
@@ -130,8 +137,9 @@ const projectsData = [
     }
   },
   {
-    name: "Clerc de commissaire de justice",
+    name: "Commissaire de justice",
     tech: "React - JSON - SEO",
+    text: "Site sur les clercs de commissaire de justice",
     image: "/images/clerc.webp",
     description: {
       overview: "Site d'information professionnelle",
@@ -149,6 +157,7 @@ const projectsData = [
   {
     name: "Photographe amateur",
     tech: "HTML - CSS - Javascript",
+    text: "Site d'un photographe amateur",
     image: "/images/photographe.webp",
     description: {
       overview: "Portfolio photographique",
@@ -166,6 +175,7 @@ const projectsData = [
   {
     name: "Agence web BV",
     tech: "HTML - CSS - Scroll-Driven Animations",
+    text: "Site d'une agence web",
     image: "/images/agence.webp",
     description: {
       overview: "Site vitrine d'agence web",
@@ -183,6 +193,7 @@ const projectsData = [
   {
     name: "To do list",
     tech: "HTML - CSS - Javascript",
+    text: "Une Todo List simple",
     image: "/images/todo.webp",
     description: {
       overview: "Application de gestion de tâches",
@@ -200,6 +211,7 @@ const projectsData = [
   {
     name: "Jeu de morpion",
     tech: "HTML - CSS - Javascript - IA",
+    text: "Un jeu de morpion simple",
     image: "/images/morpion.webp",
     description: {
       overview: "Jeu de morpion avec IA",
@@ -215,8 +227,9 @@ const projectsData = [
     }
   },
   {
-    name: "Générateur de bulletin de salaire",
+    name: "Bulletin de salaire",
     tech: "HTML - CSS - Javascript - IA",
+    text: "Générateur de bulletin de salaire",
     image: "/images/salaire.webp",
     description: {
       overview: "Outil de génération de fiches de paie",
@@ -323,6 +336,7 @@ function Projects() {
             />
             <div className="project-content">
               <h3 className="project-title">{project.name}</h3>
+              <p className="project-text">{project.text}</p>
               <p className="project-tech">{project.tech}</p>
               <button 
                 className="project-button"

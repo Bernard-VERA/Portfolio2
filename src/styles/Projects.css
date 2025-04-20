@@ -46,6 +46,7 @@
   flex-direction: column;
   align-items: flex-start; 
   padding: 1.5rem;
+  text-align: left;
 }
 
 .project-title {
