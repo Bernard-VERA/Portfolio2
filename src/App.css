@@ -50,4 +50,8 @@ section:nth-child(odd) {
   section {
     padding: 10px; 
   }
+
+ html {
+    scroll-padding-top: 320px; /* Ajuste la hauteur du menu */
+  }
 }
