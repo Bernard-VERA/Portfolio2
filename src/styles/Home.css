@@ -103,6 +103,12 @@
   }
 }
 
+@media (max-width: 900px) {
+ .home {
+  height: 100dvh;
+ }
+}
+
 @media (max-width: 768px) {
   .hero {
     padding: 4rem 1rem;

@@ -24,6 +24,7 @@
   .about p {
     font-size: 1.2rem;
     color: var(--text-primary);
+    text-align: justify;
     margin-bottom: 1.5rem;
     opacity: 0;
     transform: translateY(20px);
