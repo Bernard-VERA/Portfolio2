@@ -167,5 +167,11 @@
 
   .navbar-links.open {
     display: flex;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .navbar-links button {
+    padding: 0.2rem;
   }
 }

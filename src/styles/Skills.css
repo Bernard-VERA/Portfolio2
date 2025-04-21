@@ -2,6 +2,11 @@
   width: 100%;
   max-width: 1200px;
 }
+
+.skills h1 {
+  padding-top: 1em;
+}
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
