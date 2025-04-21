@@ -109,15 +109,18 @@
 
 .modal-close {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 0.5rem;
+  right: 0.6rem;
   background: none;
   border: none;
-  font-size: 1.5rem;
+  font-size: 16px;
   cursor: pointer;
   color: var(--text-primary);
 }
 
+.modal-content h2 {
+  margin-top: 0.5rem;
+}
 .modal-image {
   width: 100%;
   border-radius: 10px;
@@ -197,8 +200,8 @@
 }
 
 .project-link.github {
-  background: var(--bg-secondary);
-  color: var(--text-primary);
+  background: var(--accent-gradient);
+  color: white;
 }
 
 .project-link.live {
@@ -207,7 +210,7 @@
 }
 
 .project-link:hover {
-  transform: translateY(-2px);
+  transform: scale(1.03);
 }
 
 @media (max-width: 1200px) {

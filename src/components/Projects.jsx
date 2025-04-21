@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { FaGlobe, FaGithub } from "react-icons/fa";
+import { FaX } from "react-icons/fa6";
 import '../styles/Projects.css';
 
 const projectsData = [
@@ -13,16 +14,18 @@ const projectsData = [
       live: "https://votre-compte.github.io/booki"
     },
     description: {
-      overview: "Site de réservation d'hébergements en ligne",
-      challenge: "Intégrer une maquette responsive en HTML et CSS",
+      infos: "Projet OpenClassrooms - Novembre 2023",
+      overview: "Site de réservation en ligne d'hébergements de vacances",
+      challenge: "Vous commencez une alternance chez Booki comme développeur web, chargé d'intégrer une interface responsive en HTML et CSS pour un site facilitant la recherche d'hébergements et d'activités, selon une maquette Figma.",
       details: [
+        "Création d'une page d'accueil",
         "Développement from scratch",
         "Responsive design",
         "Validation W3C"
       ],
       technicalStack: {
         frontend: ["HTML5", "CSS3", "Flexbox", "Grid"],
-        tools: ["VS Code", "Git", "GitHub Pages"]
+        outils: ["VS Code", "Figma", "Git", "GitHub"]
       }
     }
   },
@@ -31,17 +34,21 @@ const projectsData = [
     tech: "HTML - CSS - Javascript",
     text: "Portfolio d'une architecte d'intérieur",
     image: "/images/bluel.webp",
+    links: {
+      github: "https://github.com/votre-compte/booki"
+    },
     description: {
+      infos: "Projet OpenClassRooms - Décembre 2023",
       overview: "Portfolio d'une architecte d'intérieur",
-      challenge: "Créer un site dynamique avec JavaScript",
+      challenge: "Créer un site dynamique avec JavaScript : Vous êtes développeur front-end chez ArchiWebos (50 salariés) et recevez toutes les ressources nécessaires après une réunion de projet. Vos missions : intégrer la page des travaux de l'architecte, créer la page de connexion administrateur et développer une modale d’upload de médias.",
       details: [
         "Authentification utilisateur",
         "Gestion de galerie dynamique",
-        "Modal d'upload de projets"
+        "Modale d'upload de projets"
       ],
       technicalStack: {
         frontend: ["HTML", "CSS", "JavaScript"],
-        backend: ["Node.js", "Express"],
+        backend: ["Node.js", "Postman"],
       }
     }
   },
@@ -50,16 +57,24 @@ const projectsData = [
     tech: "Gestion de projet - Méthodes Agiles",
     text: "Site de création de menus de restaurant",
     image: "/images/qwenta.webp",
+    links: {
+      github: "https://github.com/votre-compte/booki",
+      live: "https://votre-compte.github.io/booki"
+    },
     description: {
+      infos: "Projet OpenClassRooms - Janvier 2024",
       overview: "Gestion d'un projet de création de menus pour restaurants",
-      challenge: "Gérer un projet en méthode agile",
+      challenge: "Gérer un projet en méthode agile : Vous êtes développeur front-end chez Webgencia et travaillez sur “Menu Maker” pour Qwenta, un site permettant aux restaurateurs de gérer leurs menus. Vous devez rédiger les spécifications techniques, finaliser un tableau Kanban et mener une veille technologique.",
       details: [
+        "Planification de projet",
         "Planning poker",
         "Sprints hebdomadaires",
-        "Kanban board"
+        "Kanban board",
+        "Spécifications techniques",
+        "Veille technologique"
       ],
       technicalStack: {
-        tools: ["Trello"]
+        tools: ["Trello", "Daily.dev", "Feedly", "Wakelet" ]
       }
     }
   },
@@ -68,16 +83,24 @@ const projectsData = [
     tech: "Débogage - Optimisation - SEO",
     text: "Portfolio d'une photographe",
     image: "/images/carducci.webp",
+    links: {
+      github: "https://github.com/votre-compte/booki",
+      live: "https://votre-compte.github.io/booki"
+    },
     description: {
+      infos: "Projet OpenClassrooms - Janvier 2024",
       overview: "Portfolio d'une photographe professionnelle",
-      challenge: "Optimiser les performances et le SEO",
+      challenge: "Optimiser les performances et le SEO : Vous êtes développeur freelance et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Parmi vos prospects, il y a le site de Nina Carducci, une photographe.",
       details: [
+        "Rédaction d'un cahier de recette",
         "Optimisation des images",
         "Amélioration du SEO",
-        "Debug avec Chrome DevTools"
+        "Accessibilité du site",
+        "Correction de bugs avec Chrome DevTools"
       ],
       technicalStack: {
-        optimization: ["Lighthouse", "Wave"]
+        optimisation: ["Lighthouse", "Wave", "Lazy Loading" ],
+        Référencement: ["Schema.org", "Google Rich Snippets", "Balises Meta" ]
       }
     }
   },
@@ -86,12 +109,20 @@ const projectsData = [
     tech: "React - NodeJS - JSON",
     text: "Site de location de logements",
     image: "/images/kasa.webp",
+    links: {
+      github: "https://github.com/votre-compte/booki",
+      live: "https://votre-compte.github.io/booki"
+    },
     description: {
+      infos: "Projet OpenClassrooms - Février 2024",
       overview: "Plateforme de location immobilière",
-      challenge: "Développer une application React complète",
+      challenge: "Développer une application React complète : Vous êtes développeur front-end freelance pour Kasa, une entreprise leader en location entre particuliers, en pleine refonte technique vers JavaScript. Votre mission : développer l’application en React selon les maquettes Figma. En l’absence temporaire d’un développeur back-end, vous utiliserez un fichier JSON pour les données.",
       details: [
         "Composants réutilisables",
-        "Routing avec React Router"
+        "Création des routes",
+        "Gestion des erreurs",
+        "Création d'un Carrousel d'images",
+        "Animations CSS"
       ],
       technicalStack: {
         frontend: ["React", "React Router", "Sass"]
@@ -103,13 +134,24 @@ const projectsData = [
     tech: "React - NodeJS - MongoDB - API REST",
     text: "Site de notation de livres",
     image: "/images/grimoire.webp",
+    links: {
+      github: "https://github.com/votre-compte/booki",
+      live: "https://votre-compte.github.io/booki"
+    },
     description: {
+      infos: "Projet OpenClassrooms - Mars 2024",
       overview: "Site de notation de livres",
-      challenge: "Créer une API REST complète",
+      challenge: "Créer le back-end d'un site : Vous êtes développeur back-end freelance à Lille et collaborez avec un front-end sur Mon Vieux Grimoire, un site de notation de livres. Votre mission : créer le back-end selon les spécifications de l’API, en veillant à l’optimisation des images pour respecter les bonnes pratiques du Green Code.",
       details: [
+        "Création de la logique métier",
+        "Architecture MVC",
+        "Utilisation de Middlewares",
+        "Création d'une base de données",
+        "Protection de données",
         "Authentication JWT",
-        "CRUD opérations",
-        "Upload de fichiers"
+        "Opérations CRUD",
+        "Upload de fichiers",
+        "Optimisation des images"
       ],
       technicalStack: {
         frontend: ["React"],
@@ -257,7 +299,7 @@ function Projects() {
     return (
       <div className="modal-overlay" onClick={onClose}>
         <div className="modal-content" onClick={e => e.stopPropagation()}>
-          <button className="modal-close" onClick={onClose}>×</button>
+          <button className="modal-close" onClick={onClose}><FaX /></button>
           
           <h2>{project.name}</h2>
           <img 
@@ -267,6 +309,9 @@ function Projects() {
           />
           
           <div className="modal-description">
+            <h3>Infos</h3>
+            <p>{project.description.infos}</p>
+
             <h3>Aperçu</h3>
             <p>{project.description.overview}</p>
             
@@ -296,27 +341,12 @@ function Projects() {
 
             <div className="project-links">
               {project.links?.github && (
-                <a 
-                  href={project.links.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project-link github"
-                >
-                  <FaGithub /> GitHub
-                </a>
+                <a href={project.links.github}target="_blank"rel="noopener noreferrer"className="project-link github"><FaGithub />GitHub </a>
               )}
               {project.links?.live && (
-                <a 
-                  href={project.links.live}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project-link live"
-                >
-                  <FaGlobe /> Site Live
-                </a>
+                <a href={project.links.live}target="_blank"rel="noopener noreferrer"className="project-link live"><FaGlobe />Site</a>
               )}
             </div>
-
           </div>
         </div>
       </div>
@@ -329,21 +359,12 @@ function Projects() {
       <div className="projects-grid">
         {projectsData.map((project, index) => (
           <div key={index} className="project-card">
-            <img 
-              src={project.image} 
-              alt={project.name} 
-              className="project-image"
-            />
+            <img src={project.image} alt={project.name} className="project-image"/>
             <div className="project-content">
               <h3 className="project-title">{project.name}</h3>
               <p className="project-text">{project.text}</p>
               <p className="project-tech">{project.tech}</p>
-              <button 
-                className="project-button"
-                onClick={() => setSelectedProject(project)}
-              >
-                En savoir plus...
-              </button>
+              <button className="project-button"onClick={() => setSelectedProject(project)}>En savoir plus ...</button>
             </div>
           </div>
         ))}

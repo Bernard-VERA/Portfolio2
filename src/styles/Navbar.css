@@ -124,11 +124,11 @@
   display: none;
   background: none;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   cursor: pointer;
   position: absolute;
-  top: 15px;
-  right: 10px;
+  top: 20px;
+  right: 15px;
 }
 
 .navbar-links.open {

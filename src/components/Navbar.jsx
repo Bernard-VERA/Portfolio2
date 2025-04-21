@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useTheme } from '../context/ThemeContext';
-import { FaSun, FaMoon, FaBars, FaRegWindowClose } from 'react-icons/fa';
+import { FaSun, FaMoon, FaBars } from 'react-icons/fa';
+import { FaX } from "react-icons/fa6";
 import '../styles/Navbar.css';
 
 function Navbar() {
@@ -60,7 +61,7 @@ function Navbar() {
 
     {/* Boutons hamburger et close-menu en dehors de navbar-links */}
     <button className="hamburger"><FaBars /></button>
-    <button className="close-menu"><FaRegWindowClose /></button>
+    <button className="close-menu"><FaX /></button>
 
     <div className="navbar-links">
       <button onClick={() => scrollToSection('home')}>Accueil</button>
