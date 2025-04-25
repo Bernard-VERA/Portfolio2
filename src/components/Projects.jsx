@@ -14,7 +14,8 @@ const projectsData = [
       live: "https://votre-compte.github.io/booki"
     },
     description: {
-      infos: "Projet OpenClassrooms - Novembre 2023",
+      infos: "Projet de la formation OpenClassRooms",
+      date: "Novembre 2023",
       overview: "Site de réservation en ligne d'hébergements de vacances",
       challenge: "Vous commencez une alternance chez Booki comme développeur web, chargé d'intégrer une interface responsive en HTML et CSS pour un site facilitant la recherche d'hébergements et d'activités, selon une maquette Figma.",
       details: [
@@ -38,7 +39,8 @@ const projectsData = [
       github: "https://github.com/votre-compte/booki"
     },
     description: {
-      infos: "Projet OpenClassRooms - Décembre 2023",
+      infos: "Projet de la formation OpenClassRooms",
+      date: "Décembre 2023",
       overview: "Portfolio d'une architecte d'intérieur",
       challenge: "Créer un site dynamique avec JavaScript : Vous êtes développeur front-end chez ArchiWebos (50 salariés) et recevez toutes les ressources nécessaires après une réunion de projet. Vos missions : intégrer la page des travaux de l'architecte, créer la page de connexion administrateur et développer une modale d’upload de médias.",
       details: [
@@ -62,7 +64,8 @@ const projectsData = [
       live: "https://votre-compte.github.io/booki"
     },
     description: {
-      infos: "Projet OpenClassRooms - Janvier 2024",
+      infos: "Projet de la formation OpenClassRooms",
+      date: "Janvier 2024",
       overview: "Gestion d'un projet de création de menus pour restaurants",
       challenge: "Gérer un projet en méthode agile : Vous êtes développeur front-end chez Webgencia et travaillez sur “Menu Maker” pour Qwenta, un site permettant aux restaurateurs de gérer leurs menus. Vous devez rédiger les spécifications techniques, finaliser un tableau Kanban et mener une veille technologique.",
       details: [
@@ -74,7 +77,8 @@ const projectsData = [
         "Veille technologique"
       ],
       technicalStack: {
-        tools: ["Trello", "Daily.dev", "Feedly", "Wakelet" ]
+        Méthodes: ["Méthodes Agiles", "Scrum", "Kanban", "Personas"],
+        Outils: ["Trello", "Daily.dev", "Feedly", "Wakelet" ]
       }
     }
   },
@@ -88,7 +92,8 @@ const projectsData = [
       live: "https://votre-compte.github.io/booki"
     },
     description: {
-      infos: "Projet OpenClassrooms - Janvier 2024",
+      infos: "Projet de la formation OpenClassrooms",
+      date: "Janvier 2024",
       overview: "Portfolio d'une photographe professionnelle",
       challenge: "Optimiser les performances et le SEO : Vous êtes développeur freelance et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Parmi vos prospects, il y a le site de Nina Carducci, une photographe.",
       details: [
@@ -114,7 +119,8 @@ const projectsData = [
       live: "https://votre-compte.github.io/booki"
     },
     description: {
-      infos: "Projet OpenClassrooms - Février 2024",
+      infos: "Projet de la formation OpenClassrooms",
+      date: "Février 2024",
       overview: "Plateforme de location immobilière",
       challenge: "Développer une application React complète : Vous êtes développeur front-end freelance pour Kasa, une entreprise leader en location entre particuliers, en pleine refonte technique vers JavaScript. Votre mission : développer l’application en React selon les maquettes Figma. En l’absence temporaire d’un développeur back-end, vous utiliserez un fichier JSON pour les données.",
       details: [
@@ -125,7 +131,8 @@ const projectsData = [
         "Animations CSS"
       ],
       technicalStack: {
-        frontend: ["React", "React Router", "Sass"]
+        frontend: ["React", "React Router", "Sass"],
+        outils: ["Figma", "GitHub", "Vercel"]
       }
     }
   },
@@ -135,11 +142,11 @@ const projectsData = [
     text: "Site de notation de livres",
     image: "/images/grimoire.webp",
     links: {
-      github: "https://github.com/votre-compte/booki",
-      live: "https://votre-compte.github.io/booki"
+      github: "https://github.com/votre-compte/booki"
     },
     description: {
-      infos: "Projet OpenClassrooms - Mars 2024",
+      infos: "Projet OpenClassrooms",
+      date: "Mars 2024",
       overview: "Site de notation de livres",
       challenge: "Créer le back-end d'un site : Vous êtes développeur back-end freelance à Lille et collaborez avec un front-end sur Mon Vieux Grimoire, un site de notation de livres. Votre mission : créer le back-end selon les spécifications de l’API, en veillant à l’optimisation des images pour respecter les bonnes pratiques du Green Code.",
       details: [
@@ -155,7 +162,7 @@ const projectsData = [
       ],
       technicalStack: {
         frontend: ["React"],
-        backend: ["Node.js", "Express"],
+        backend: ["Node.js", "Express", "Postman"],
         database: ["MongoDB"]
       }
     }
@@ -165,16 +172,28 @@ const projectsData = [
     tech: "CMS - Gestion de site - Forum",
     text: "Site sur les clercs d'huissier",
     image: "/images/huissier.webp",
+    links: {
+      github: "https://github.com/votre-compte/booki",
+      live: "https://votre-compte.github.io/booki"
+    },
     description: {
+      infos: "Projet Personnel",
+      date: "Mai  2009",
       overview: "Forum professionnel pour clercs d'huissier",
-      challenge: "Gérer une communauté en ligne",
+      challenge: "Durant ma carrière de clerc d'huissier, ma passion pour l'informatique m'a poussé à combler un vide en créant ce site sur ma profession. Sans formation à l'époque, j'ai utilisé un CMS simple (Phortail), que j'ai  progressivement amélioré. J’ai ensuite commencé à gérer des blogs et à concevoir de petits sites familiaux et amicaux, à une époque où les réseaux sociaux n’existaient pas encore. Ce site a rencontré un certain succès, figurant parmi les cinq premiers résultats de recherche pour le terme 'Huissiers'. Je l'ai maintenu en ligne, mais il est démodé, dépassé techniquement, et obsolète.",
       details: [
-        "Modération de contenu",
+        "Création d'un site web",
+        "Création de contenu",
         "Gestion des utilisateurs",
-        "Support technique"
+        "Gestion d'un forum",
+        "Modération de contenu",
+        "Support technique",
+        "Transfert FTP",
+        "Apache"
       ],
       technicalStack: {
-        cms: ["Phortail"]
+        cms: ["Phortail", "Hébergeur Free", "FileZilla"],
+        outils: ["Recherche Google", "Reddit", "Stack Overflow", "Le site du zéro"]
       }
     }
   },
@@ -183,16 +202,27 @@ const projectsData = [
     tech: "React - JSON - SEO",
     text: "Site sur les clercs de commissaire de justice",
     image: "/images/clerc.webp",
+    links: {
+      github: "https://github.com/votre-compte/booki",
+      live: "https://votre-compte.github.io/booki"
+    },
     description: {
-      overview: "Site d'information professionnelle",
-      challenge: "Optimiser le référencement",
+      infos: "Projet Personnel",
+      date: "Juillet 2024",
+      overview: "Site d'information à l'attention des clercs d'Huissiers",
+      challenge: "Refonte complète du site LE CLERC D'HUISSIER. L'ancien site, devenu obsolète et non sécurisé, ne pouvait plus être mis à jour. Une réforme de 2020 ayant profondément transformé la profession, j'ai décidé de repartir de zéro et de créer un nouveau site en React. C'est une 'Single Page Application', sans base de données, mais avec des fichiers JSON pour stocker les contenus. Le site est adapté à tous les formats (desktop, tablette, mobile), et a été optimisé en termes de référencement, accessibilité et performances. Hébergé sur Vercel, ce projet m'a permis d'améliorer mes compétences techniques.",
       details: [
-        "Structure de données",
-        "Meta tags dynamiques"
+        "Création From Scratch avec React",
+        "Single Page Application",
+        "Composants réutilisables",
+        "Gestion des routes",
+        "Gestion des erreurs",
+        "Accessibilité",
+        "référencement"
       ],
       technicalStack: {
-        frontend: ["React"],
-        seo: ["Schema.org", "Open Graph"]
+        frontend: ["React", "React Router", "JSON"],
+        outils: ["LightHouse", "Wave", "GitHub", "Vercel", "Forumactif.com"]
       }
     }
   },
@@ -201,13 +231,21 @@ const projectsData = [
     tech: "HTML - CSS - Javascript",
     text: "Site d'un photographe amateur",
     image: "/images/photographe.webp",
+    links: {
+      github: "https://github.com/votre-compte/booki",
+      live: "https://votre-compte.github.io/booki"
+    },
     description: {
-      overview: "Portfolio photographique",
-      challenge: "Créer une galerie interactive",
+      infos: "Projet Personnel",
+      date: "Septembre 2024",
+      overview: "Le site web d'un photographe amateur",
+      challenge: "Création du site web d'un photographe amateur imaginaire. Portfolio créé en HTML/CSS pour réviser les bases, conforme aux normes et optimisé pour le web. Expérimentation du Responsive Design et d'un fond d'écran animé.",
       details: [
         "Mise en page complexe",
+        "Utilisation de Grid",
         "Qualité des photos",
-        "Lazy loading"
+        "Lazy loading",
+        "Optimisation"
       ],
       technicalStack: {
         frontend: ["HTML", "CSS", "JavaScript"]
@@ -219,34 +257,49 @@ const projectsData = [
     tech: "HTML - CSS - Scroll-Driven Animations",
     text: "Site d'une agence web",
     image: "/images/agence.webp",
+    links: {
+      github: "https://github.com/votre-compte/booki",
+      live: "https://votre-compte.github.io/booki"
+    },
     description: {
-      overview: "Site vitrine d'agence web",
-      challenge: "Créer des animations au scroll",
+      infos: "Projet Personnel",
+      date: "Octobre 2024",
+      overview: "Site vitrine d'une agence web",
+      challenge: "Créer des animations au scroll en CSS Only : Lors de ma veille technologique, j'ai découvert une nouvelle fonctionnalité (Scroll-Driven Animations) permettant d'effectuer des animations au scroll directement en CSS. Pour explorer cette innovation, j'ai crée ce site expérimental, bien que cette technologie ne soit pas encore prise en charge par Firefox et Safari. Les tests révèlent des limites : le fichier CSS n'est pas validé par W3C et les animations ralentissent le chargement selon Lighthouse. Face à ces défis, en bon autodidacte, je me suis documenté pour tester et adapter ces nouvelles méthodes.",
       details: [
-        "Animations CSS",
+        "Animations CSS Only",
         "Performance optimisée"
       ],
       technicalStack: {
         frontend: ["HTML", "CSS", "JavaScript"],
-        animations: ["Scroll Driven animations"]
+        animations: ["Scroll Driven Animations"]
       }
     }
   },
   {
-    name: "To do list",
+    name: "To-do list",
     tech: "HTML - CSS - Javascript",
-    text: "Une Todo List simple",
+    text: "Une To-do List simple",
     image: "/images/todo.webp",
+    links: {
+      github: "https://github.com/votre-compte/booki",
+      live: "https://votre-compte.github.io/booki"
+    },
     description: {
+      infos: "Projet Personnel",
+      date: "Novembre 2024",
       overview: "Application de gestion de tâches",
-      challenge: "Créer une application",
+      challenge: "Création d'une To-Do List simple en HTML, JavaScript et CSS, un projet incontournable pour un développeur web. Le site permet d'ajouter et supprimer des tâches via un champ de saisie et un bouton, avec stockage des données en localStorage. Ce projet permet de réviser les bases du JavaScript, comme la manipulation du DOM (document.createElement, appendChild, removeChild), l'ajout d'écouteurs d'événements (addEventListener), et la gestion des données sous forme de tableaux et objets.",
       details: [
+        "Création d'éléments dynamiquement",
+        "Ajouter des écouteurs d'événements",
+        "Modification du DOM",
         "LocalStorage",
         "Sécurité XSS"
       ],
       technicalStack: {
         frontend: ["HTML", "CSS", "JavaScript"],
-        storage: ["LocalStorage"]
+        outils: ["LocalStorage", "Sécurité XSS"]
       }
     }
   },
@@ -255,16 +308,23 @@ const projectsData = [
     tech: "HTML - CSS - Javascript - IA",
     text: "Un jeu de morpion simple",
     image: "/images/morpion.webp",
+    links: {
+      github: "https://github.com/votre-compte/booki",
+      live: "https://votre-compte.github.io/booki"
+    },
     description: {
-      overview: "Jeu de morpion avec IA",
-      challenge: "Trouver la logique",
+      infos: "Projet Personnel",
+      date: "Décembre 2024",
+      overview: "Jeu de morpion",
+      challenge: "Développement d’un jeu de Morpion en HTML, CSS et JavaScript, avec l’aide de l’intelligence artificielle (Copilot) pour optimiser le code et gagner du temps. Ce projet, complexe par sa logique, a permis d’approfondir plusieurs compétences : gestion des combinaisons gagnantes, des tours et des égalités, interaction utilisateur via les événements JavaScript, et optimisation de l’interface. Tests et vérifications ont été réalisés pour garantir la compatibilité avec différents navigateurs et formats d’écran.",
       details: [
         "Gérer les tours",
         "Lister les combinaisons gagnantes",
-        "Afficher le gagnant"
+        "Afficher le gagnant",
+        "Afficher les égalités"
       ],
       technicalStack: {
-        frontend: ["HTML", "CSS", "JavaScript"]
+        frontend: ["HTML", "CSS", "JavaScript", "Copilot"]
       }
     }
   },
@@ -273,18 +333,25 @@ const projectsData = [
     tech: "HTML - CSS - Javascript - IA",
     text: "Générateur de bulletin de salaire",
     image: "/images/salaire.webp",
+    links: {
+      github: "https://github.com/votre-compte/booki",
+      live: "https://votre-compte.github.io/booki"
+    },
     description: {
+      infos: "Projet Personnel",
+      date: "Mars 2025",
       overview: "Outil de génération de fiches de paie",
-      challenge: "Automatiser les calculs complexes",
+      challenge: "Développer un outil de génération de bulletins de salaire en HTML, CSS et JavaScript, avec une interface intuitive inspirée de PAJEMPLOI. Le formulaire permet de saisir les informations nécessaires et génère automatiquement les montants et cotisations. Projet technique et complexe, il inclut des calculs avancés, une mise en page responsive, et une exportation en PDF via html2canvas et jsPDF. La sécurité est renforcée par des protections XSS et un jeton CSRF. Tests d’optimisation réalisés avec Lighthouse, Wave et validation W3C pour garantir performance et compatibilité.",
       details: [
-        "Calculs automatiques",
-        "Export PDF",
+        "Création de formulaires",
         "Validation des données",
-        "Sécuriser les formulaires"
+        "Sécurisation des formulaires",
+        "Calculs automatiques",
+        "Export PDF"
       ],
       technicalStack: {
-        frontend: ["HTML", "CSS", "JavaScript"],
-        libraries: ["jsPDF", "Purify.js"]
+        frontend: ["HTML", "CSS", "JavaScript", "Copilot"],
+        outils: ["Jeton CSRF unique","Local storage", "jsPDF", "Purify.js"]
       }
     }
   }
@@ -311,6 +378,9 @@ function Projects() {
           <div className="modal-description">
             <h3>Infos</h3>
             <p>{project.description.infos}</p>
+
+            <h3>Date</h3>
+            <p>{project.description.date}</p>
 
             <h3>Aperçu</h3>
             <p>{project.description.overview}</p>
