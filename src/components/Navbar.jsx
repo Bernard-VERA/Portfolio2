@@ -16,7 +16,7 @@ function Navbar() {
     const hamburger = document.querySelector('.hamburger');
     const closeMenu = document.querySelector('.close-menu');
     const navbarLinks = document.querySelector('.navbar-links');
-    const navButtons = document.querySelectorAll('.navbar-links button'); // Sélectionner tous les boutons
+    const navButtons = document.querySelectorAll('.navbar-links button'); 
   
     function handleResize() {
       if (window.innerWidth > 900) {
@@ -45,13 +45,15 @@ function Navbar() {
       closeMenu.style.display = 'none';
     });
   
-    // Ajout de l'événement de fermeture aux liens
+    // Ajout de l'événement de fermeture aux liens uniquement si l'écran est inférieur à 900px
     navButtons.forEach(button => {
       button.addEventListener('click', () => {
-        navbarLinks.classList.remove('open');
-        navbarLinks.style.display = 'none';
-        hamburger.style.display = 'block';
-        closeMenu.style.display = 'none';
+        if (window.innerWidth <= 900) {
+          navbarLinks.classList.remove('open');
+          navbarLinks.style.display = 'none';
+          hamburger.style.display = 'block';
+          closeMenu.style.display = 'none';
+        }
       });
     });
   
@@ -62,14 +64,17 @@ function Navbar() {
       window.removeEventListener('resize', handleResize);
       navButtons.forEach(button => {
         button.removeEventListener('click', () => {
-          navbarLinks.classList.remove('open');
-          navbarLinks.style.display = 'none';
-          hamburger.style.display = 'block';
-          closeMenu.style.display = 'none';
+          if (window.innerWidth <= 900) {
+            navbarLinks.classList.remove('open');
+            navbarLinks.style.display = 'none';
+            hamburger.style.display = 'block';
+            closeMenu.style.display = 'none';
+          }
         });
       });
     };
   }, []);
+  
   
 
   return (
