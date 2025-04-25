@@ -51,6 +51,6 @@ section:nth-child(odd) {
   }
 
  html {
-    scroll-padding-top: 270px; /* Ajuste la hauteur du menu */
+    scroll-padding-top: 70px; /* Ajuste la hauteur du menu */
   }
 }

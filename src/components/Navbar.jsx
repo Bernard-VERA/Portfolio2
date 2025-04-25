@@ -16,11 +16,12 @@ function Navbar() {
     const hamburger = document.querySelector('.hamburger');
     const closeMenu = document.querySelector('.close-menu');
     const navbarLinks = document.querySelector('.navbar-links');
-
+    const navButtons = document.querySelectorAll('.navbar-links button'); // Sélectionner tous les boutons
+  
     function handleResize() {
       if (window.innerWidth > 900) {
         navbarLinks.classList.remove('open');
-        navbarLinks.style.display = 'flex'; // S'assurer que le menu reste visible
+        navbarLinks.style.display = 'flex';
         hamburger.style.display = 'none';
         closeMenu.style.display = 'none';
       } else {
@@ -29,28 +30,47 @@ function Navbar() {
         closeMenu.style.display = 'none';
       }
     }
-
+  
     hamburger.addEventListener('click', () => {
       navbarLinks.classList.add('open');
-      navbarLinks.style.display = 'flex'; // Assurer l'affichage correct
+      navbarLinks.style.display = 'flex';
       hamburger.style.display = 'none';
       closeMenu.style.display = 'block';
     });
-
+  
     closeMenu.addEventListener('click', () => {
       navbarLinks.classList.remove('open');
       navbarLinks.style.display = 'none';
       hamburger.style.display = 'block';
       closeMenu.style.display = 'none';
     });
-
+  
+    // Ajout de l'événement de fermeture aux liens
+    navButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        navbarLinks.classList.remove('open');
+        navbarLinks.style.display = 'none';
+        hamburger.style.display = 'block';
+        closeMenu.style.display = 'none';
+      });
+    });
+  
     window.addEventListener('resize', handleResize);
     handleResize();
-
+  
     return () => {
       window.removeEventListener('resize', handleResize);
+      navButtons.forEach(button => {
+        button.removeEventListener('click', () => {
+          navbarLinks.classList.remove('open');
+          navbarLinks.style.display = 'none';
+          hamburger.style.display = 'block';
+          closeMenu.style.display = 'none';
+        });
+      });
     };
   }, []);
+  
 
   return (
     <nav className="navbar">
