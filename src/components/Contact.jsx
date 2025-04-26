@@ -9,7 +9,7 @@ function Contact() {
         <p>N'hésitez pas à me contacter pour discuter de vos projets !</p>
         <div className="social-links">
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/bernardvera" 
             target="_blank" 
             rel="noopener noreferrer"
             className="social-link"
@@ -18,7 +18,7 @@ function Contact() {
             <span>LinkedIn</span>
           </a>
           <a 
-            href="https://github.com" 
+            href="https://github.com/Bernard-VERA" 
             target="_blank" 
             rel="noopener noreferrer"
             className="social-link"
@@ -27,7 +27,7 @@ function Contact() {
             <span>GitHub</span>
           </a>
           <a 
-            href="mailto:email@example.com" 
+            href="mailto:bernard.vera@hotmail.com" 
             className="social-link"
           >
             <FaEnvelope />

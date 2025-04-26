@@ -10,8 +10,8 @@ const projectsData = [
     text: "Site de location de logements de vacances",
     image: "/images/booki.webp",
     links: {
-      github: "https://github.com/votre-compte/booki",
-      live: "https://votre-compte.github.io/booki"
+      github: "https://github.com/Bernard-VERA/Projet-2",
+      live: "https://bernard-vera.github.io/Projet-2/"
     },
     description: {
       infos: "Projet de la formation OpenClassRooms",
@@ -36,7 +36,7 @@ const projectsData = [
     text: "Portfolio d'une architecte d'intérieur",
     image: "/images/bluel.webp",
     links: {
-      github: "https://github.com/votre-compte/booki"
+      github: "https://github.com/Bernard-VERA/Projet-3"
     },
     description: {
       infos: "Projet de la formation OpenClassRooms",
@@ -60,8 +60,8 @@ const projectsData = [
     text: "Site de création de menus de restaurant",
     image: "/images/qwenta.webp",
     links: {
-      github: "https://github.com/votre-compte/booki",
-      live: "https://votre-compte.github.io/booki"
+      github: "https://github.com/Bernard-VERA/Projet-4",
+      live: "https://bernard-vera.github.io/Projet-4/"
     },
     description: {
       infos: "Projet de la formation OpenClassRooms",
@@ -88,8 +88,8 @@ const projectsData = [
     text: "Portfolio d'une photographe",
     image: "/images/carducci.webp",
     links: {
-      github: "https://github.com/votre-compte/booki",
-      live: "https://votre-compte.github.io/booki"
+      github: "https://github.com/Bernard-VERA/Projet-5",
+      live: "https://bernard-vera.github.io/Projet-5/"
     },
     description: {
       infos: "Projet de la formation OpenClassrooms",
@@ -115,8 +115,8 @@ const projectsData = [
     text: "Site de location de logements",
     image: "/images/kasa.webp",
     links: {
-      github: "https://github.com/votre-compte/booki",
-      live: "https://votre-compte.github.io/booki"
+      github: "https://github.com/Bernard-VERA/Projet-6",
+      live: "https://kasa-bernard-vera.vercel.app/"
     },
     description: {
       infos: "Projet de la formation OpenClassrooms",
@@ -142,7 +142,7 @@ const projectsData = [
     text: "Site de notation de livres",
     image: "/images/grimoire.webp",
     links: {
-      github: "https://github.com/votre-compte/booki"
+      github: "https://github.com/Bernard-VERA/Projet-7"
     },
     description: {
       infos: "Projet OpenClassrooms",
@@ -173,8 +173,7 @@ const projectsData = [
     text: "Site sur les clercs d'huissier",
     image: "/images/huissier.webp",
     links: {
-      github: "https://github.com/votre-compte/booki",
-      live: "https://votre-compte.github.io/booki"
+      live: "http://clercdhuissier.free.fr/"
     },
     description: {
       infos: "Projet Personnel",
@@ -203,8 +202,8 @@ const projectsData = [
     text: "Site sur les clercs de commissaire de justice",
     image: "/images/clerc.webp",
     links: {
-      github: "https://github.com/votre-compte/booki",
-      live: "https://votre-compte.github.io/booki"
+      github: "https://github.com/Bernard-VERA/Projet-clerc",
+      live: "https://projet-clerc.vercel.app/"
     },
     description: {
       infos: "Projet Personnel",
@@ -232,8 +231,8 @@ const projectsData = [
     text: "Site d'un photographe amateur",
     image: "/images/photographe.webp",
     links: {
-      github: "https://github.com/votre-compte/booki",
-      live: "https://votre-compte.github.io/booki"
+      github: "https://github.com/Bernard-VERA/Photographe",
+      live: "https://bernard-vera.github.io/Photographe/index.html"
     },
     description: {
       infos: "Projet Personnel",
@@ -258,8 +257,8 @@ const projectsData = [
     text: "Site d'une agence web",
     image: "/images/agence.webp",
     links: {
-      github: "https://github.com/votre-compte/booki",
-      live: "https://votre-compte.github.io/booki"
+      github: "https://github.com/Bernard-VERA/Agence-Web",
+      live: "https://bernard-vera.github.io/Agence-Web/"
     },
     description: {
       infos: "Projet Personnel",
@@ -282,8 +281,8 @@ const projectsData = [
     text: "Une To-do List simple",
     image: "/images/todo.webp",
     links: {
-      github: "https://github.com/votre-compte/booki",
-      live: "https://votre-compte.github.io/booki"
+      github: "https://github.com/Bernard-VERA/Simple-To-Do-List",
+      live: "https://bernard-vera.github.io/Simple-To-Do-List/"
     },
     description: {
       infos: "Projet Personnel",
@@ -309,8 +308,8 @@ const projectsData = [
     text: "Un jeu de morpion simple",
     image: "/images/morpion.webp",
     links: {
-      github: "https://github.com/votre-compte/booki",
-      live: "https://votre-compte.github.io/booki"
+      github: "https://github.com/Bernard-VERA/Tic-tac-toe",
+      live: "https://bernard-vera.github.io/Tic-tac-toe/"
     },
     description: {
       infos: "Projet Personnel",
@@ -334,8 +333,8 @@ const projectsData = [
     text: "Générateur de bulletin de salaire",
     image: "/images/salaire.webp",
     links: {
-      github: "https://github.com/votre-compte/booki",
-      live: "https://votre-compte.github.io/booki"
+      github: "https://github.com/Bernard-VERA/Projet-Salaire",
+      live: "https://bernard-vera.github.io/Projet-Salaire/"
     },
     description: {
       infos: "Projet Personnel",
