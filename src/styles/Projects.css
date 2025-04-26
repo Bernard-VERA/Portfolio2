@@ -5,8 +5,9 @@
   padding: 2rem;
 }
 
-.projects h1 {
-  margin-bottom: 2rem;
+.projects h2 {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
