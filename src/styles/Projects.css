@@ -103,14 +103,14 @@
   border-radius: 15px;
   max-width: 800px;
   width: 90%;
-  max-height: 90vh;
+  max-height: 85vh;
   overflow-y: auto;
   position: relative;
 }
 
 .modal-close {
   position: absolute;
-  top: 0.5rem;
+  top: 0.9rem;
   right: 0.6rem;
   background: none;
   border: none;
