@@ -85,8 +85,8 @@ function Navbar() {
     </div>
 
     {/* Boutons hamburger et close-menu en dehors de navbar-links */}
-    <button className="hamburger"><FaBars /></button>
-    <button className="close-menu"><FaX /></button>
+    <button className="hamburger" aria-label="Ouvrir menu"><FaBars /></button>
+    <button className="close-menu" aria-label="Fermer menu"><FaX /></button>
 
     <div className="navbar-links">
       <button onClick={() => scrollToSection('home')}>Accueil</button>
@@ -94,7 +94,7 @@ function Navbar() {
       <button onClick={() => scrollToSection('skills')}>Compétences</button>
       <button onClick={() => scrollToSection('projects')}>Projets</button>
       <button onClick={() => scrollToSection('contact')}>Contact</button>
-      <button className="theme-toggle" onClick={toggleTheme}>
+      <button className="theme-toggle" aria-label="Changer thème" onClick={toggleTheme}>
         {isDarkMode ? <FaSun /> : <FaMoon />}
       </button>
     </div>

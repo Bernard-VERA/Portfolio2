@@ -425,11 +425,11 @@ function Projects() {
 
   return (
     <div className="projects">
-      <h1>Mes Projets</h1>
+      <h2>Mes Projets</h2>
       <div className="projects-grid">
         {projectsData.map((project, index) => (
           <div key={index} className="project-card">
-            <img src={project.image} alt={project.name} className="project-image"/>
+            <img src={project.image} alt={`Illustration du projet ${project.name}`} className="project-image"/>
             <div className="project-content">
               <h3 className="project-title">{project.name}</h3>
               <p className="project-text">{project.text}</p>
