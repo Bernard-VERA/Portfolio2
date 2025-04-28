@@ -21,9 +21,9 @@
   background: var(--bg-secondary);
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 4px 20px var(--shadow-color);
+  box-shadow: 8px 8px 12px var(--shadow-color);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid rgba(202, 198, 198, 0.5);
+  border: 1px solid rgba(202, 198, 198, 0.3);
 }
 
 .project-card:hover {
@@ -37,7 +37,7 @@
   height: 300px;
   object-fit: cover;
   object-position: top;
-  border: 1px solid rgba(202, 198, 198, 0.5);
+  border: 1px solid rgba(202, 198, 198, 0.3);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
  }
@@ -228,8 +228,16 @@
   .projects {
     padding: 1rem;
   }
+
+ 
   
   .technical-stack {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-image {
+    height: 200px;
   }
 }

@@ -8,6 +8,13 @@ function Contact() {
       <div className="contact-content">
         <p>N'hésitez pas à me contacter pour discuter de vos projets !</p>
         <div className="social-links">
+        <a 
+            href="mailto:bernard.vera@hotmail.com" 
+            className="social-link"
+          >
+            <FaEnvelope />
+            <span>M'envoyer un mail</span>
+          </a>
           <a 
             href="https://www.linkedin.com/in/bernardvera" 
             target="_blank" 
@@ -15,7 +22,7 @@ function Contact() {
             className="social-link"
           >
             <FaLinkedin />
-            <span>Me contacter sur LinkedIn</span>
+            <span>Mon profil LinkedIn</span>
           </a>
           <a 
             href="https://github.com/Bernard-VERA" 
@@ -24,14 +31,7 @@ function Contact() {
             className="social-link"
           >
             <FaGithub />
-            <span>Voir mes projets sur GitHub</span>
-          </a>
-          <a 
-            href="mailto:bernard.vera@hotmail.com" 
-            className="social-link"
-          >
-            <FaEnvelope />
-            <span>M'envoyer un mail</span>
+            <span>Mon profil GitHub</span>
           </a>
           <a 
             href="" 
