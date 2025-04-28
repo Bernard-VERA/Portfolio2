@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope, FaFilePdf } from "react-icons/fa";
 import '../styles/Contact.css';
 
 function Contact() {
@@ -15,7 +15,7 @@ function Contact() {
             className="social-link"
           >
             <FaLinkedin />
-            <span>LinkedIn</span>
+            <span>Me contacter sur LinkedIn</span>
           </a>
           <a 
             href="https://github.com/Bernard-VERA" 
@@ -24,14 +24,23 @@ function Contact() {
             className="social-link"
           >
             <FaGithub />
-            <span>GitHub</span>
+            <span>Voir mes projets sur GitHub</span>
           </a>
           <a 
             href="mailto:bernard.vera@hotmail.com" 
             className="social-link"
           >
             <FaEnvelope />
-            <span>Email</span>
+            <span>M'envoyer un mail</span>
+          </a>
+          <a 
+            href="" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="social-link"
+          >
+            <FaFilePdf />
+            <span>Télécharger mon CV</span>
           </a>
         </div>
       </div>

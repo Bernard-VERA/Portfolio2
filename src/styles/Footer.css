@@ -4,7 +4,8 @@
     padding: 1.5rem;
     text-align: center;
     border-top: 1px solid var(--shadow-color);
-    margin-top: auto;
+    margin: auto;
+    padding: 2rem;
   }
   
   .footer-content {

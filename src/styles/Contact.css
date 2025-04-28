@@ -41,6 +41,8 @@
     text-decoration: none;
     transition: all 0.3s ease;
     min-width: 150px;
+    box-shadow: 6px 6px 5px var(--shadow-color);
+  
   }
   
   .social-link:hover {
