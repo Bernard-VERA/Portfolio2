@@ -12,7 +12,7 @@ function About() {
         Curieux et toujours en quête d’amélioration, je mets mon expertise au service de projets innovants, alliant technicité et créativité, pour répondre aux besoins des utilisateurs. 
         </p>
         </div>
-        <img src="/images/portrait.jpg" alt="Avatar" className="avatar" />
+        <img src="/images/photo.jpg" alt="Avatar" className="avatar" />
       </div>
     </div>
   );
