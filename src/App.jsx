@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Softskills from './components/Softskills'
 import Contact from './components/Contact';
 import './App.css';
 import Footer from './components/Footer';
@@ -29,6 +30,9 @@ function App() {
           </section>
           <section id="contact">
             <Contact />
+          </section>
+          <section id="softskills">
+            <Softskills />
           </section>
         </main>
         <Footer />
