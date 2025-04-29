@@ -162,16 +162,22 @@
     background-color: var(--navbar-bg);
     width: 100%;
     padding: 1rem;
-    gap: 1px;
+    gap: 0.5rem;
   }
 
   .navbar-links.open {
+    max-width: 30%;
     display: flex;
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
+    border-radius: 10px;
   }
 
-  .navbar-links button {
-    padding: 0.5rem;
+
+}
+
+@media (max-width: 768px) {
+  .navbar-links.open {
+    max-width: 40%;
   }
 }
