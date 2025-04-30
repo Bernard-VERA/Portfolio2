@@ -17,6 +17,7 @@ function Softskills() {
                 <li>Rédaction technique claire</li>
                 <li>Rigueur et attention aux détails</li>
                 <li>Organisation et planification de projets</li>
+                <li>Utilisation de l'IA ( Copilot, Bolt, ChatGPT )</li>
               </ul>
             </div>
           </div>
