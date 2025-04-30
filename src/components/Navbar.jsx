@@ -94,6 +94,7 @@ function Navbar() {
       <button onClick={() => scrollToSection('skills')}>Compétences</button>
       <button onClick={() => scrollToSection('projects')}>Projets</button>
       <button onClick={() => scrollToSection('contact')}>Contact</button>
+      <button onClick={() => scrollToSection('softskills')}>Softskills</button>
       <button className="theme-toggle" aria-label="Changer thème" onClick={toggleTheme}>
         {isDarkMode ? <FaSun /> : <FaMoon />}
       </button>
