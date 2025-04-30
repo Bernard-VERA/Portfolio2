@@ -9,10 +9,11 @@
 
 .softskills-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 2rem;
     background: var(--bg-primary);
 }
 
@@ -20,14 +21,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
     padding: 1.5rem;
     border-radius: 15px;
     background: var(--bg-secondary);
     color: var(--text-primary);
-    text-decoration: none;
-    transition: all 0.3s ease;
-    min-width: 150px;
+    min-width: 300px;
+    width: 48%;
     box-shadow: 6px 6px 12px var(--shadow-color);
 }
 
@@ -37,13 +37,25 @@
     color: var(--text-primary)
 }
 
+.tech-skills li, .life-skills li {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: left;
+}
+
 @media (max-width: 900px) {
    .softskills-content {
     padding: 1rem;
+    flex-direction: column;
+    align-items: center;
    }
 
    .softskills h2 {
     padding-top: 1.1rem;
     padding-bottom: 0.3rem;
+    }
+
+    .tech-skills, .life-skills {
+        width: 100%;
     }
 }
