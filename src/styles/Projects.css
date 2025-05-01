@@ -11,6 +11,12 @@
   text-align: center;
 }
 
+.projects p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
 .filter-buttons {
   display: flex;
   justify-content: center;
@@ -19,7 +25,13 @@
   flex-wrap: wrap;
 }
 
+.recentold-buttons, .personalschool-buttons {
+  display:flex;
+  gap: 1rem;
+}
+
 .filter-buttons button {
+  width: 12rem;
   padding: 0.8rem 1.5rem;
   border-radius: 8px;
   background: var(--bg-secondary);
@@ -255,6 +267,10 @@
   .projects-grid {
     grid-template-columns: 1fr;
   }
+
+  .filter-buttons button {
+    padding: 0.3rem 1.5rem;
+  }
   
   .projects {
     padding: 1rem;
@@ -268,5 +284,17 @@
 @media (max-width: 768px) {
   .project-image {
     height: 200px;
+  }
+
+  .filter-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .recentold-buttons, .personalschool-buttons {
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    gap: 1rem;
   }
 }

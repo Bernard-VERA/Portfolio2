@@ -480,32 +480,36 @@ function Projects() {
   return (
     <div className="projects">
       <h2>Mes Projets</h2>
-
+      <p>Tri des projets</p>
       <div className="filter-buttons">
-        <button 
-          className={filter === 'recent' ? 'active' : ''} 
-          onClick={() => setFilter('recent')}
-        >
-          Les + récents
-        </button>
-        <button 
-          className={filter === 'old' ? 'active' : ''} 
-          onClick={() => setFilter('old')}
-        >
-          Les + anciens
-        </button>
-        <button 
-          className={filter === 'personal' ? 'active' : ''} 
-          onClick={() => setFilter('personal')}
-        >
-          Projets personnels
-        </button>
-        <button 
-          className={filter === 'school' ? 'active' : ''} 
-          onClick={() => setFilter('school')}
-        >
-          Projets scolaires
-        </button>
+        <div className="recentold-buttons">
+          <button 
+            className={filter === 'recent' ? 'active' : ''} 
+            onClick={() => setFilter('recent')}
+          >
+            Les + récents
+          </button>
+          <button 
+            className={filter === 'old' ? 'active' : ''} 
+            onClick={() => setFilter('old')}
+          >
+            Les + anciens
+          </button>
+        </div>
+        <div className="personalschool-buttons">
+          <button 
+            className={filter === 'personal' ? 'active' : ''} 
+            onClick={() => setFilter('personal')}
+          >
+            Projets personnels
+          </button>
+          <button 
+            className={filter === 'school' ? 'active' : ''} 
+            onClick={() => setFilter('school')}
+          >
+            Projets scolaires
+          </button>
+        </div>
       </div>
       <div className="projects-grid">
       {filterProjects().map((project) => (
