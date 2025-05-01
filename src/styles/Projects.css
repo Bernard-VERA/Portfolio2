@@ -11,6 +11,37 @@
   text-align: center;
 }
 
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.filter-buttons button {
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  box-shadow: 8px 8px 12px var(--shadow-color);
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.filter-buttons button:hover {
+  border-color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+.filter-buttons button.active {
+  background: var(--accent-gradient);
+  color: white;
+  border-color: transparent;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

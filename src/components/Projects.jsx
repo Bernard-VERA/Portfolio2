@@ -4,11 +4,14 @@ import { FaX } from "react-icons/fa6";
 import '../styles/Projects.css';
 
 const projectsData = [
-  {
+  {  
+    id: 1,
     name: "Booki",
     tech: "HTML - CSS",
     text: "Site de location de logements de vacances",
     image: "/images/booki.webp",
+    category: "scolaire",
+    date: "2023-11-15",
     links: {
       github: "https://github.com/Bernard-VERA/Projet-2",
       live: "https://bernard-vera.github.io/Projet-2/"
@@ -31,10 +34,13 @@ const projectsData = [
     }
   },
   {
+    id: 2,
     name: "Sophie Bluel",
     tech: "HTML - CSS - Javascript",
     text: "Portfolio d'une architecte d'intérieur",
     image: "/images/bluel.webp",
+    category: "scolaire",
+    date: "2023-12-15",
     links: {
       github: "https://github.com/Bernard-VERA/Projet-3"
     },
@@ -55,10 +61,13 @@ const projectsData = [
     }
   },
   {
+    id: 3,
     name: "Menu Maker",
     tech: "Gestion de projet - Méthodes Agiles",
     text: "Site de création de menus de restaurant",
     image: "/images/qwenta.webp",
+    category: "scolaire",
+    date: "2024-01-15",
     links: {
       github: "https://github.com/Bernard-VERA/Projet-4",
       live: "https://bernard-vera.github.io/Projet-4/"
@@ -83,10 +92,13 @@ const projectsData = [
     }
   },
   {
+    id: 4,
     name: "Nina Carducci",
     tech: "Débogage - Optimisation - SEO",
     text: "Portfolio d'une photographe",
     image: "/images/carducci.webp",
+    category: "scolaire",
+    date: "2024-01-30",
     links: {
       github: "https://github.com/Bernard-VERA/Projet-5",
       live: "https://bernard-vera.github.io/Projet-5/"
@@ -110,10 +122,13 @@ const projectsData = [
     }
   },
   {
+    id: 5,
     name: "Kasa",
     tech: "React - NodeJS - JSON",
     text: "Site de location de logements",
     image: "/images/kasa.webp",
+    category: "scolaire",
+    date: "2024-02-15",
     links: {
       github: "https://github.com/Bernard-VERA/Projet-6",
       live: "https://kasa-bernard-vera.vercel.app/"
@@ -137,10 +152,13 @@ const projectsData = [
     }
   },
   {
+    id:6,
     name: "Mon vieux grimoire",
     tech: "React - NodeJS - MongoDB - API REST",
     text: "Site de notation de livres",
     image: "/images/grimoire.webp",
+    category: "scolaire",
+    date: "2024-03-15",
     links: {
       github: "https://github.com/Bernard-VERA/Projet-7"
     },
@@ -168,10 +186,13 @@ const projectsData = [
     }
   },
   {
+    id: 7,
     name: "Le clerc d'huissier",
     tech: "CMS - Gestion de site - Forum",
     text: "Site sur les clercs d'huissier",
     image: "/images/huissier.webp",
+    category: "personnel",
+    date: "2009-05-15",
     links: {
       live: "http://clercdhuissier.free.fr/"
     },
@@ -197,10 +218,13 @@ const projectsData = [
     }
   },
   {
+    id: 8,
     name: "Commissaire de justice",
     tech: "React - JSON - SEO",
     text: "Site sur les clercs de commissaire de justice",
     image: "/images/clerc.webp",
+    category: "personnel",
+    date: "2024-07-15",
     links: {
       github: "https://github.com/Bernard-VERA/Projet-clerc",
       live: "https://projet-clerc.vercel.app/"
@@ -226,10 +250,13 @@ const projectsData = [
     }
   },
   {
+    id: 9,
     name: "Photographe amateur",
     tech: "HTML - CSS - Javascript",
     text: "Site d'un photographe amateur",
     image: "/images/photographe.webp",
+    category: "personnel",
+    date: "2024-09-15",
     links: {
       github: "https://github.com/Bernard-VERA/Photographe",
       live: "https://bernard-vera.github.io/Photographe/index.html"
@@ -252,10 +279,13 @@ const projectsData = [
     }
   },
   {
+    id: 10,
     name: "Agence web BV",
     tech: "HTML - CSS - Scroll-Driven Animations",
     text: "Site d'une agence web",
     image: "/images/agence.webp",
+    category: "personnel",
+    date: "2024-10-15",
     links: {
       github: "https://github.com/Bernard-VERA/Agence-Web",
       live: "https://bernard-vera.github.io/Agence-Web/"
@@ -276,10 +306,13 @@ const projectsData = [
     }
   },
   {
+    id: 11,
     name: "To-do list",
     tech: "HTML - CSS - Javascript",
     text: "Une To-do List simple",
     image: "/images/todo.webp",
+    category: "personnel",
+    date: "2024-11-15",
     links: {
       github: "https://github.com/Bernard-VERA/Simple-To-Do-List",
       live: "https://bernard-vera.github.io/Simple-To-Do-List/"
@@ -303,10 +336,13 @@ const projectsData = [
     }
   },
   {
+    id: 12,
     name: "Jeu de morpion",
     tech: "HTML - CSS - Javascript - IA",
     text: "Un jeu de morpion simple",
     image: "/images/morpion.webp",
+    category: "personnel",
+    date: "2024-12-15",
     links: {
       github: "https://github.com/Bernard-VERA/Tic-tac-toe",
       live: "https://bernard-vera.github.io/Tic-tac-toe/"
@@ -328,10 +364,13 @@ const projectsData = [
     }
   },
   {
+    id: 13,
     name: "Bulletin de salaire",
     tech: "HTML - CSS - Javascript - IA",
     text: "Générateur de bulletin de salaire",
     image: "/images/salaire.webp",
+    category: "personnel",
+    date: "2025-03-15",
     links: {
       github: "https://github.com/Bernard-VERA/Projet-Salaire",
       live: "https://bernard-vera.github.io/Projet-Salaire/"
@@ -358,6 +397,22 @@ const projectsData = [
 
 function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
+  const [filter, setFilter] = useState('all');
+
+  const filterProjects = () => {
+    switch (filter) {
+      case 'recent':
+        return [...projectsData].sort((a, b) => new Date(b.date) - new Date(a.date));
+      case 'old':
+        return [...projectsData].sort((a, b) => new Date(a.date) - new Date(b.date));
+      case 'personal':
+        return projectsData.filter(project => project.category === 'personnel');
+      case 'school':
+        return projectsData.filter(project => project.category === 'scolaire');
+      default:
+        return projectsData;
+    }
+  };
 
   const ProjectModal = ({ project, onClose }) => {
     if (!project) return null;
@@ -425,9 +480,36 @@ function Projects() {
   return (
     <div className="projects">
       <h2>Mes Projets</h2>
+
+      <div className="filter-buttons">
+        <button 
+          className={filter === 'recent' ? 'active' : ''} 
+          onClick={() => setFilter('recent')}
+        >
+          Les + récents
+        </button>
+        <button 
+          className={filter === 'old' ? 'active' : ''} 
+          onClick={() => setFilter('old')}
+        >
+          Les + anciens
+        </button>
+        <button 
+          className={filter === 'personal' ? 'active' : ''} 
+          onClick={() => setFilter('personal')}
+        >
+          Projets personnels
+        </button>
+        <button 
+          className={filter === 'school' ? 'active' : ''} 
+          onClick={() => setFilter('school')}
+        >
+          Projets scolaires
+        </button>
+      </div>
       <div className="projects-grid">
-        {projectsData.map((project, index) => (
-          <div key={index} className="project-card">
+      {filterProjects().map((project) => (
+          <div key={project.id} className="project-card">
             <img src={project.image} alt={`Illustration du projet ${project.name}`} className="project-image"/>
             <div className="project-content">
               <h3 className="project-title">{project.name}</h3>
