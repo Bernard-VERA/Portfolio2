@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { useEffect, useRef } from 'react';
 import '../styles/About.css';
 

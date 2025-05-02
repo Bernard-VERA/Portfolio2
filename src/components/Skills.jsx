@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
 import { TbBrandMongodb, TbSeo } from "react-icons/tb";
 import '../styles/Skills.css';
@@ -16,10 +16,37 @@ const skillsData = [
 
 
 function Skills() {
+  const skillsRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate');
+          }
+        });
+      },
+      {
+        threshold: 0.1
+      }
+    );
+
+    if (skillsRef.current) {
+      observer.observe(skillsRef.current);
+    }
+
+    return () => {
+      if (skillsRef.current) {
+        observer.unobserve(skillsRef.current);
+      }
+    };
+  }, []);
+
   return (
     <div className="skills">
       <h2>Mes compétences</h2>
-      <div className="skills-grid">
+      <div ref={skillsRef}  className="skills-grid">
       {skillsData.map((skill) => (
         <div key={skill.name} className="skill-card">
           <div className="infos">

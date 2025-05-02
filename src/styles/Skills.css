@@ -67,10 +67,15 @@
   position: absolute;
   left: 0;
   height: 100%;
-  width: min(var(--progress), 100%);
+  width: 0;
   max-width: 100%;  /* Empêche le dépassement */
   background-color: var(--accent-color);
   border-radius: 5px;
+  transition: width 3.5s ease-out;
+}
+
+.skills-grid.animate .progress-bar::before {
+  width: var(--progress);
 }
 
 @media (max-width: 900px) {
