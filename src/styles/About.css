@@ -18,6 +18,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 1.3s ease, transform 1.9s ease;
+  }
+
+  .about-content.visible {
+    opacity: 1;
+    transform: translateY(0);
   }
   
   .about h2 {
