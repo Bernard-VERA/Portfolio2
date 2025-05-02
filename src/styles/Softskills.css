@@ -17,7 +17,7 @@
     background: var(--bg-primary);
 }
 
-.tech-skills, .life-skills {
+.tech-skills {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +29,37 @@
     min-width: 300px;
     width: 48%;
     box-shadow: 6px 6px 12px var(--shadow-color);
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 1s ease, transform 1s ease;
 }
+
+.tech-skills.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+.life-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    min-width: 300px;
+    width: 48%;
+    box-shadow: 6px 6px 12px var(--shadow-color);
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.life-skills.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
 
 .tech-skills h3, .life-skills h3 {
     font-size: 1.5rem;
