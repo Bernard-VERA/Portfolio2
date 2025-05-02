@@ -19,7 +19,7 @@
     flex-wrap: wrap;
     justify-content: center;
     opacity: 0;
-    transform: translateY(60px);
+    transform: translateY(200px);
     transition: opacity 1.3s ease, transform 1.9s ease;
   }
 
