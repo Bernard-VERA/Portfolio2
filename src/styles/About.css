@@ -45,7 +45,7 @@
 
   .avatar {
     align-content: center;
-    width: 250px;
+    width: 300px;
     margin: 1.5rem auto;
     border-radius: 8%;
     box-shadow: 8px 8px 8px var(--shadow-color);

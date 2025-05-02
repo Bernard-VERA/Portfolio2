@@ -41,7 +41,7 @@ function About() {
         Curieux et toujours en quête d’amélioration, je souhaite mettre mon expertise et ma créativité au service de projets innovants, afin de répondre au mieux aux besoins des utilisateurs. 
         </p>
         </div>
-        <img src="/images/avatar.jpg" alt="Avatar" className="avatar" />
+        <img src="/images/dessin.jpg" alt="Avatar" className="avatar" />
       </div>
     </div>
   );
