@@ -1,4 +1,6 @@
-import { useState } from 'react';
+/* eslint-disable */
+
+import { useState, useEffect, useRef } from 'react';
 import { FaGlobe, FaGithub } from "react-icons/fa";
 import { FaX } from "react-icons/fa6";
 import '../styles/Projects.css';
@@ -398,6 +400,37 @@ const projectsData = [
 function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
   const [filter, setFilter] = useState('all');
+  const projectsRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const cards = entry.target.querySelectorAll('.project-card');
+            cards.forEach((card, index) => {
+              setTimeout(() => {
+                card.classList.add('visible');
+              }, index * 100); // Délai progressif pour chaque carte
+            });
+          }
+        });
+      },
+      {
+        threshold: 0.08
+      }
+    );
+
+    if (projectsRef.current) {
+      observer.observe(projectsRef.current);
+    }
+
+    return () => {
+      if (projectsRef.current) {
+        observer.unobserve(projectsRef.current);
+      }
+    };
+  }, [filter]); // Réinitialiser l'animation quand le filtre change
 
   const filterProjects = () => {
     switch (filter) {
@@ -511,7 +544,7 @@ function Projects() {
           </button>
         </div>
       </div>
-      <div className="projects-grid">
+      <div ref={projectsRef} className="projects-grid">
       {filterProjects().map((project) => (
           <div key={project.id} className="project-card">
             <img src={project.image} alt={`Illustration du projet ${project.name}`} className="project-image"/>
