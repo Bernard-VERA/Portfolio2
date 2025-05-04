@@ -11,6 +11,7 @@ function Contact() {
         <a 
             href="mailto:bernard.vera@hotmail.com" 
             className="social-link"
+            aria-label="Envoyer Email"
           >
             <FaEnvelope />
             <span>M'envoyer un mail</span>
@@ -20,6 +21,7 @@ function Contact() {
             target="_blank" 
             rel="noopener noreferrer"
             className="social-link"
+            aria-label="Profil LinkedIn"
           >
             <FaLinkedin />
             <span>Mon profil LinkedIn</span>
@@ -29,6 +31,7 @@ function Contact() {
             target="_blank" 
             rel="noopener noreferrer"
             className="social-link"
+            aria-label="Profil GitHub"
           >
             <FaGithub />
             <span>Mon profil GitHub</span>
@@ -39,6 +42,7 @@ function Contact() {
             target="_blank" 
             rel="noopener noreferrer"
             className="social-link"
+            aria-label="Download CV"
           >
             <FaFilePdf />
             <span>Télécharger mon CV</span>
