@@ -13,3 +13,12 @@ export default defineConfig({
     }
   }
 })
+// X-Content-Type-Options : Empêche le MIME-type sniffing
+
+// X-Frame-Options : Protège contre le clickjacking
+
+// X-XSS-Protection : Active la protection XSS du navigateur
+
+// Referrer-Policy : Contrôle les informations de référence envoyées
+
+// Content-Security-Policy : Définit les sources autorisées pour le contenu (supprimé car bloquait mob navigateur. A revoir plus tard)
