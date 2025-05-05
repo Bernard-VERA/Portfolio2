@@ -9,8 +9,7 @@ export default defineConfig({
       'X-Content-Type-Options': 'nosniff',
       'X-Frame-Options': 'DENY',
       'X-XSS-Protection': '1; mode=block',
-      'Referrer-Policy': 'strict-origin-when-cross-origin',
-      'Content-Security-Policy': "default-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self' data:;"
+      'Referrer-Policy': 'strict-origin-when-cross-origin'
     }
   }
 })
