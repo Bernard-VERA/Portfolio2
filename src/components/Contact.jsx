@@ -37,7 +37,7 @@ function Contact() {
             <span>Mon profil GitHub</span>
           </a>
           <a 
-            href="/documents/cv.pdf"
+            href="/documents/VERA_Bernard_CV.pdf"
             download 
             target="_blank" 
             rel="noopener noreferrer"

@@ -6,16 +6,61 @@
     text-align: center;
     border-top: 1px solid var(--shadow-color);
     margin: auto;
-    padding: 2rem;
   }
   
   .footer-content {
-    max-width: 1200px;
     margin: 0 auto;
-    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .footer-text {
+    align-content: center;
   }
   
   .footer p {
+    font-size: 1rem;
     margin: 0;
-    opacity: 0.8;
+    opacity: 0.9;
+  }
+
+  .footer-left-space {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .scroll-to-top {
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+    color: var(--accent-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+    
+  .scroll-to-top:hover {
+    transform: translateY(-5px);
+  }
+  
+  @media (max-width: 768px) {
+
+    .footer-left-space {
+      width: 3rem;
+      height: 3rem;
+    }
+
+    .scroll-to-top {
+      width: 3rem;
+      height: 3rem;
+      font-size: 3rem;
+    }
+
+    .footer p {
+      font-size: 0.9rem;
+    }
   }
