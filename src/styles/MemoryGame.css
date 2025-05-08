@@ -130,6 +130,10 @@
     .card {
       aspect-ratio: 3/2;
     }
+
+    .card-back svg {
+      font-size: 2rem;
+    }
   
     .icon-name {
       font-size: 0.8rem;
@@ -144,6 +148,10 @@
 
     .card {
       aspect-ratio: 4/2;
+    }
+
+    .card-back svg {
+      margin-bottom: 0;
     }
     
     .game-stats {
