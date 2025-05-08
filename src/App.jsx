@@ -5,8 +5,9 @@ import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Softskills from './components/Softskills'
 import Contact from './components/Contact';
+import Softskills from './components/Softskills'
+import MemoryGame from './components/MemoryGame';
 import './App.css';
 import Footer from './components/Footer';
 
@@ -33,6 +34,9 @@ function App() {
           </section>
           <section id="softskills">
             <Softskills />
+          </section>
+          <section id="memory-game">
+            <MemoryGame />
           </section>
         </main>
         <Footer />

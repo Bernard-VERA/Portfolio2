@@ -142,7 +142,11 @@
   padding: 1rem;
 }
 
-
+@media (max-width: 1024px) {
+  .navbar-links {
+   gap: 0.7rem;
+  }
+}
 
 @media (max-width: 900px) {
   .navbar {
