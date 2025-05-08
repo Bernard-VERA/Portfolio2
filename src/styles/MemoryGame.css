@@ -44,7 +44,7 @@
   }
   
   .card {
-    aspect-ratio: 3/4;
+    aspect-ratio: 4/4;
     cursor: pointer;
     position: relative;
     transform-style: preserve-3d;
@@ -143,6 +143,11 @@
   @media (max-width: 480px) {
     .cards-grid {
       grid-template-columns: repeat(2, 1fr);
+      gap: 0.8rem;
+    }
+
+    .card {
+      aspect-ratio: 4/2;
     }
     
     .game-stats {
