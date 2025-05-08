@@ -40,3 +40,9 @@ Deux plugins officiels sont actuellement disponibles :
 # Extension de la configuration ESLint
 Si vous développez une application de production, je vous recommande d'utiliser TypeScript avec des règles de contrôle de lecture sensibles au type activées. Consultez le [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) pour plus d'informations sur la façon d'intégrer TypeScript et [`typescript-eslint`](https://typescript-eslint.io) dans votre projet.
 La configuration du fichier eslint.config.js étant trés stricte, j'ai du ajouter la ligne /* eslint-disable */ au début de certains fichiers, car une erreur sans conséquences sur le fonctionnement du site était signalée.
+
+----
+
+<p align="center" width="100%">
+    <img width="90%" src="https://github.com/Bernard-VERA/Portfolio2/blob/main/public/images/readme-image.jpg"> 
+</p>
