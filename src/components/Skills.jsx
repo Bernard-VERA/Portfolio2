@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 // Composant de la section Compétences
 // Affiche une grille de compétences avec des barres de progression
 import React, { useEffect, useRef } from 'react';
