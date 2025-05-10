@@ -10,6 +10,7 @@ export default defineConfig({
       'X-Frame-Options': 'DENY',
       'X-XSS-Protection': '1; mode=block',
       'Referrer-Policy': 'strict-origin-when-cross-origin'
+      //'Content-Security-Policy': "default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; font-src 'self' https: data:; connect-src 'self' https:;"
     }
   }
 })
@@ -21,4 +22,4 @@ export default defineConfig({
 
 // Referrer-Policy : Contrôle les informations de référence envoyées
 
-// Content-Security-Policy : Définit les sources autorisées pour le contenu (supprimé car bloquait mob navigateur. A revoir plus tard)
+// Content-Security-Policy : Définit les sources autorisées pour le contenu (supprimé car bloquait mon navigateur. A revoir plus tard)
