@@ -1,10 +1,13 @@
 /* eslint-disable */
 
+// Composant de la section Projets
+// Affiche une grille de projets avec filtres et modale détaillée
 import { useState, useEffect, useRef } from 'react';
 import { FaGlobe, FaGithub } from "react-icons/fa";
 import { FaX } from "react-icons/fa6";
 import '../styles/Projects.css';
 
+// Données des projets
 const projectsData = [
   {  
     id: 1,
@@ -395,13 +398,16 @@ const projectsData = [
       }
     }
   }
+  // Ajouter un nouveau projet ici. Ne pas oublier de mettre une virgule après le projet précédent.
 ];
 
 function Projects() {
+  // États pour la gestion des projets
   const [selectedProject, setSelectedProject] = useState(null);
   const [filter, setFilter] = useState('all');
   const projectsRef = useRef(null);
 
+  // Configuration de l'animation au défilement
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -432,6 +438,7 @@ function Projects() {
     };
   }, [filter]); // Réinitialiser l'animation quand le filtre change
 
+  // Fonction de filtrage des projets
   const filterProjects = () => {
     switch (filter) {
       case 'recent':
@@ -447,6 +454,7 @@ function Projects() {
     }
   };
 
+  // Composant Modale pour les détails du projet
   const ProjectModal = ({ project, onClose }) => {
     if (!project) return null;
 

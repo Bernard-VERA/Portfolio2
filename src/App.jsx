@@ -1,4 +1,5 @@
-
+// Point d'entrée principal de l'application
+// Gère la structure globale et le routage entre les différentes sections
 import { ThemeProvider } from './context/ThemeContext';
 import Navbar from './components/Navbar';
 import Home from './components/Home';

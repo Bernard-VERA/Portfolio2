@@ -1,7 +1,10 @@
+// Composant Footer
+// Affiche le pied de page avec copyright et bouton de retour en haut
 import { FaArrowAltCircleUp } from "react-icons/fa";
 import '../styles/Footer.css';
 
 function Footer() {
+  // Fonction pour remonter en haut de la page
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,

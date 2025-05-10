@@ -1,3 +1,5 @@
+// Composant de la barre de navigation
+// Gère la navigation et le thème clair/sombre
 import { useEffect } from 'react';
 import { useTheme } from '../context/ThemeContext';
 import { FaSun, FaMoon, FaBars } from 'react-icons/fa';
@@ -5,8 +7,10 @@ import { FaX } from "react-icons/fa6";
 import '../styles/Navbar.css';
 
 function Navbar() {
+  // Récupération du contexte de thème
   const { isDarkMode, toggleTheme } = useTheme();
 
+  // Fonction de défilement vers une section
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     element?.scrollIntoView({ behavior: 'smooth' });

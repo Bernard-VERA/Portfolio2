@@ -1,3 +1,5 @@
+// Composant de la section Contact
+// Affiche les liens vers les réseaux sociaux et le CV
 import { FaLinkedin, FaGithub, FaEnvelope, FaFilePdf } from "react-icons/fa";
 import '../styles/Contact.css';
 

@@ -1,12 +1,15 @@
 /* eslint-disable */
-
+// Composant de la section "À propos"
+// Présente une brève biographie avec animation
 import { useEffect, useRef } from 'react';
 import '../styles/About.css';
 
 function About() {
+  // Référence pour l'élément à observer
   const contentRef = useRef(null);
 
   useEffect(() => {
+    // Configuration de l'Intersection Observer pour l'animation au défilement
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -24,6 +27,7 @@ function About() {
       observer.observe(contentRef.current);
     }
 
+    // Nettoyage de l'observer lors du démontage du composant
     return () => {
       if (contentRef.current) {
         observer.unobserve(contentRef.current);

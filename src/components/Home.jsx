@@ -1,3 +1,5 @@
+// Composant de la page d'accueil
+// Affiche le header avec le nom et le titre
 import '../styles/Home.css';
 
 function Home() {

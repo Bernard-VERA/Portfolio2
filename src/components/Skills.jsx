@@ -1,8 +1,11 @@
+// Composant de la section Compétences
+// Affiche une grille de compétences avec des barres de progression
 import React, { useEffect, useRef } from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
 import { TbBrandMongodb, TbSeo } from "react-icons/tb";
 import '../styles/Skills.css';
 
+// Données des compétences avec leur niveau (A modifier si évolution)
 const skillsData = [
   { name: "HTML", icon: <FaHtml5 />, level: 90 },
   { name: "CSS", icon: <FaCss3Alt />, level: 90 },
@@ -16,9 +19,11 @@ const skillsData = [
 
 
 function Skills() {
+  // Référence pour l'animation au défilement
   const skillsRef = useRef(null);
 
   useEffect(() => {
+    // Configuration de l'Intersection Observer pour l'animation
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -36,6 +41,7 @@ function Skills() {
       observer.observe(skillsRef.current);
     }
 
+    // Nettoyage de l'observer
     return () => {
       if (skillsRef.current) {
         observer.unobserve(skillsRef.current);

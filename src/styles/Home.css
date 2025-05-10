@@ -85,7 +85,7 @@
   }
 }
 
-/* Add a subtle floating animation to the hero section */
+/* Ajoute une animation flottante au hero */
 .hero {
   animation: float 6s ease-in-out infinite;
 }
@@ -126,7 +126,7 @@
   }
 }
 
-/* Add smooth transition for dark mode */
+/* Ajoute une smooth transition au dark mode */
 .home {
   transition: background 0.3s ease;
 }
