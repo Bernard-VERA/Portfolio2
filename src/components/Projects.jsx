@@ -397,6 +397,36 @@ const projectsData = [
         outils: ["Jeton CSRF unique","Local storage", "jsPDF", "Purify.js"]
       }
     }
+  },
+  {
+    id: 14,
+    name: "Projet en cours...",
+    tech: "React - Vite - Javascript - IA",
+    text: "Prévisions Météo",
+    image: "/images/meteo.jpeg",
+    category: "personnel",
+    date: "2025-05-15",
+    links: {
+      github: "https://github.com/Bernard-VERA/Previmeteo3",
+      live: "https://previmeteo.vercel.app/"
+    },
+    description: {
+      infos: "Projet Personnel",
+      date: "Mai 2025",
+      overview: "Site de prévision météo, par ville",
+      challenge: "Créer une application météo moderne permettant aux utilisateurs de consulter des prévisions météorologiques précises, sur 3 jours. Développée avec React et Vite, elle exploite les API Open-Meteo Forecast pour la localisation des villes, et Open-Meteo Weather pour fournir des données météorologiques actualisées et fiables.",
+      details: [
+        "Interface agréable",
+        "Mode clair/sombre",
+        "Gestion des APIs",
+        "Optimisation des performances",
+        "Déploiement en ligne"
+      ],
+      technicalStack: {
+        frontend: ["React + Vite", "JavaScript", "Local storage", "Intelligence artificielle"],
+        outils: ["API Open-météo", "UseState", "UseEffect", "Vercel"]
+      }
+    }
   }
   // Ajouter un nouveau projet ici. Ne pas oublier de mettre une virgule après le projet précédent.
 ];
