@@ -403,7 +403,7 @@ const projectsData = [
     name: "Projet en cours...",
     tech: "React - Vite - Javascript - IA",
     text: "Prévisions Météo",
-    image: "/images/meteo.jpeg",
+    image: "/images/meteo.webp",
     category: "personnel",
     date: "2025-05-15",
     links: {
