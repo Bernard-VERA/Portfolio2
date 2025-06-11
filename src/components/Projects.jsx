@@ -400,7 +400,7 @@ const projectsData = [
   },
   {
     id: 14,
-    name: "Projet en cours...",
+    name: "Prévimétéo",
     tech: "React - Vite - Javascript - IA",
     text: "Prévisions Météo",
     image: "/images/meteo.webp",
@@ -426,6 +426,37 @@ const projectsData = [
       technicalStack: {
         frontend: ["React + Vite", "JavaScript", "Local storage", "Intelligence artificielle"],
         outils: ["API Open-météo", "UseState", "UseEffect", "Vercel"]
+      }
+    }
+  },
+  {
+    id: 15,
+    name: "Projet en cours...",
+    tech: "HTML - CSS - Javascript",
+    text: "Boutique KingsMen",
+    image: "/images/kingsmen.webp",
+    category: "personnel",
+    date: "2025-06-10",
+    links: {
+      github: "https://github.com/Bernard-VERA/boutique-kingsmen",
+      live: "https://bernard-vera.github.io/boutique-kingsmen/"
+    },
+    description: {
+      infos: "Projet Personnel",
+      date: "Juin 2025",
+      overview: "Landing Page d'une boutique de vêtements pour homme",
+      challenge: "Ce projet est en cours de création... Créer la page d'accueil d'une boutique de vêtements pour hommes, avec un Design moderne, chic et attirant. Le but est d'inciter le client à venir acheter en boutique. S'agissant d'une page simple, l'utilisation d'un Framework n'est pas nécessaire. Donc HTML, CSS et Javascript uniquement. Il faudra aussi installer une carte afin de pouvoir localiser la boutique. Les images seront générées avec l'aide de l'IA.",
+      details: [
+        "Interface agréable",
+        "Design moderne",
+        "Style masculin chic",
+        "Installation d'une carte interactive",
+        "Optimisation des performances",
+        "Déploiement en ligne"
+      ],
+      technicalStack: {
+        frontend: ["HTML", "CSS", "JavaScript"],
+        outils: ["Librairie Leaflet", "Diaporama automatique", "GitHub Pages"]
       }
     }
   }
