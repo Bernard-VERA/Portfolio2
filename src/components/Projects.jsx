@@ -68,7 +68,7 @@ const projectsData = [
   {
     id: 3,
     name: "Menu Maker",
-    tech: "Gestion de projet - Méthodes Agiles",
+    tech: "Projet - Méthodes Agiles",
     text: "Site de création de menus de restaurant",
     image: "/images/qwenta.webp",
     category: "scolaire",
@@ -159,7 +159,7 @@ const projectsData = [
   {
     id:6,
     name: "Mon vieux grimoire",
-    tech: "React - NodeJS - MongoDB - API REST",
+    tech: "React - Node - MongoDB - API",
     text: "Site de notation de livres",
     image: "/images/grimoire.webp",
     category: "scolaire",
@@ -286,7 +286,7 @@ const projectsData = [
   {
     id: 10,
     name: "Agence web BV",
-    tech: "HTML - CSS - Scroll-Driven Animations",
+    tech: "HTML - CSS - Animations",
     text: "Site d'une agence web",
     image: "/images/agence.webp",
     category: "personnel",
@@ -574,6 +574,11 @@ function Projects() {
                 <a href={project.links.live}target="_blank"rel="noopener noreferrer"className="project-link live"><FaGlobe />Site</a>
               )}
             </div>
+
+            <div className="modal-footer">
+              <button className="modal-back-button" onClick={onClose}>Revenir aux projets</button>
+            </div>
+
           </div>
         </div>
       </div>

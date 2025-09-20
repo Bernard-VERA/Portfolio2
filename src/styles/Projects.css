@@ -240,7 +240,7 @@
   display: flex;
   gap: 1rem;
   margin-top: 2rem;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   border-top: 1px solid var(--shadow-color);
 }
 
@@ -268,6 +268,28 @@
 }
 
 .project-link:hover {
+  transform: scale(1.03);
+}
+
+.modal-footer {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--shadow-color);
+  text-align: center;
+}
+
+.modal-back-button {
+  background: var(--accent-gradient);
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  font-weight: 500;
+}
+
+.modal-back-button:hover {
   transform: scale(1.03);
 }
 
