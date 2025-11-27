@@ -431,9 +431,9 @@ const projectsData = [
   },
   {
     id: 15,
-    name: "Projet en cours...",
+    name: "Boutique KINGSMEN",
     tech: "HTML - CSS - Javascript",
-    text: "Boutique KingsMen",
+    text: "Boutique de vêtements",
     image: "/images/kingsmen.webp",
     category: "personnel",
     date: "2025-06-10",
@@ -457,6 +457,37 @@ const projectsData = [
       technicalStack: {
         frontend: ["HTML", "CSS", "JavaScript"],
         outils: ["Librairie Leaflet", "Diaporama automatique", "GitHub Pages"]
+      }
+    }
+  },
+  {
+    id: 16,
+    name: "Projet en cours...",
+    tech: "React - Javascript - Vibe Coding",
+    text: "Tic-Tac-Toe Deluxe",
+    image: "/images/tictactoe.webp",
+    category: "personnel",
+    date: "2025-11-10",
+    links: {
+      github: "https://github.com/Bernard-VERA/Tic-Tac-Toe-Deluxe",
+      live: "https://bv-tic-tac-toe-deluxe.vercel.app/"
+    },
+    description: {
+      infos: "Projet Personnel",
+      date: "Novembre 2025",
+      overview: "Jeu de Morpion Pro",
+      challenge: "J'avais déjà créé un jeu de morpion simple, mais mes compétences ayant évolué, je le trouve maintenant trop basique. Cette nouvelle version devra permettre de jouer contre un ami, mais aussi contre l'ordinateur, avec plusieurs niveaux de difficultés. Lors de ma veille technologique, j'ai en effet découvert l'algorithme Minimax, qui simule une IA imbattable. Le but est donc de l'intégrer dans le jeu.",
+      details: [
+        "Interface agréable",
+        "Design moderne",
+        "Gestion des tours des joueurs",
+        "Gestion du gagnant ou de l'égalité",
+        "Gestion du niveau de difficulté",
+        "Déploiement en ligne sur Vercel"
+      ],
+      technicalStack: {
+        frontend: ["React", "Vite", "JavaScript", "Vibe coding"],
+        outils: ["Lovable.dev", "Copilot", "Vercel"]
       }
     }
   }
