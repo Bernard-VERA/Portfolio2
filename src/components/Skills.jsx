@@ -3,7 +3,7 @@
 // Composant de la section Compétences
 // Affiche une grille de compétences avec des barres de progression
 import React, { useEffect, useRef } from 'react';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGithub,FaCode } from 'react-icons/fa';
 import { TbBrandMongodb, TbSeo } from "react-icons/tb";
 import '../styles/Skills.css';
 
@@ -13,10 +13,11 @@ const skillsData = [
   { name: "CSS", icon: <FaCss3Alt />, level: 90 },
   { name: "JavaScript", icon: <FaJs />, level: 80 },
   { name: "React", icon: <FaReact />, level: 70 },
-  { name: "Node", icon: <FaNodeJs />, level: 60 },
+  { name: "Node.js", icon: <FaNodeJs />, level: 60 },
   { name: "MongoDB", icon: <TbBrandMongodb />, level: 70 },
   { name: "SEO", icon: <TbSeo />, level: 90 },
   { name: "GitHub", icon: <FaGithub />, level: 85 },
+  { name: "Vibe Coding", icon: <FaCode />, level: 60 },
 ];
 
 
