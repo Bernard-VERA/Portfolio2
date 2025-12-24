@@ -41,23 +41,21 @@ function About() {
       <div ref={contentRef} className="about-content">
         <div>
         <p>
-        Passionné d’informatique depuis toujours, j’ai choisi d’en faire mon métier en me spécialisant dans le développement web full-stack. Soucieux d’enrichir mon parcours autodidacte, j’ai suivi une formation diplômante chez OpenClassrooms. Cela m’a permis d’acquérir des compétences solides, pour concevoir des sites web intuitifs et performants.<br/>
-        Curieux et toujours en quête d’amélioration, je souhaite mettre mon expertise et ma créativité au service de projets innovants, afin de répondre au mieux aux besoins des utilisateurs. 
+          Passionné d’informatique depuis toujours, j’ai choisi d’en faire mon métier en me spécialisant dans le développement web full-stack. Soucieux d’enrichir mon parcours autodidacte, j’ai suivi une formation diplômante chez OpenClassrooms. Cela m’a permis d’acquérir des compétences solides, pour concevoir des sites web intuitifs et performants.<br/>
+          Curieux et toujours en quête d’amélioration, je souhaite mettre mon expertise et ma créativité au service de projets innovants, afin de répondre au mieux aux besoins des utilisateurs. 
         </p>
         </div>
         <img src="/images/dessin.jpg" alt="Avatar" className="avatar" />
         <p>
          <br /> Mon objectif : vous offrir un site performant, sécurisé et prêt à soutenir votre activité.<br />
-- Création de sites web modernes, rapides et sur mesure<br />
-- Refonte et amélioration de sites existants<br />
-- Maintenance technique et suivi continu<br />
-- Optimisation SEO pour améliorer votre visibilité<br />
-- Mise en place et gestion de bases de données<br />
-- Sécurisation de sites et protection des données<br />
-- Optimisation des performances (vitesse, UX, stabilité)<br />
-- Déploiement et mise en production fiables<br />
-
-
+          - Création de sites web modernes, rapides et sur mesure.<br />
+          - Refonte et amélioration de sites existants.<br />
+          - Maintenance technique et suivi continu.<br />
+          - Optimisation SEO pour améliorer votre visibilité.<br />
+          - Mise en place et gestion de bases de données.<br />
+          - Sécurisation de sites et protection des données.<br />
+          - Optimisation des performances (vitesse, UX, stabilité).<br />
+          - Déploiement et mise en production fiables.<br />
         </p>
       </div>
     </div>
