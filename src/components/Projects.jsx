@@ -340,34 +340,7 @@ const projectsData = [
       }
     }
   },
-  {
-    id: 12,
-    name: "Jeu de morpion",
-    tech: "HTML - CSS - Javascript - IA",
-    text: "Un jeu de morpion simple",
-    image: "/images/morpion.webp",
-    category: "personnel",
-    date: "2024-12-15",
-    links: {
-      github: "https://github.com/Bernard-VERA/Tic-tac-toe",
-      live: "https://bernard-vera.github.io/Tic-tac-toe/"
-    },
-    description: {
-      infos: "Projet Personnel",
-      date: "Décembre 2024",
-      overview: "Jeu de morpion",
-      challenge: "Développement d’un jeu de Morpion en HTML, CSS et JavaScript, avec l’aide de l’intelligence artificielle (Copilot) pour optimiser le code et gagner du temps. Ce projet, complexe par sa logique, a permis d’approfondir plusieurs compétences : gestion des combinaisons gagnantes, des tours et des égalités, interaction utilisateur via les événements JavaScript, et optimisation de l’interface. Tests et vérifications ont été réalisés pour garantir la compatibilité avec différents navigateurs et formats d’écran.",
-      details: [
-        "Gérer les tours",
-        "Lister les combinaisons gagnantes",
-        "Afficher le gagnant",
-        "Afficher les égalités"
-      ],
-      technicalStack: {
-        frontend: ["HTML", "CSS", "JavaScript", "Copilot"]
-      }
-    }
-  },
+  // Projet 12 supprimé, après création du projet 16, nouveau jeu de Morpion
   {
     id: 13,
     name: "Bulletin de salaire",
@@ -445,7 +418,7 @@ const projectsData = [
       infos: "Projet Personnel",
       date: "Juin 2025",
       overview: "Landing Page d'une boutique de vêtements pour homme",
-      challenge: "Ce projet est en cours de création... Créer la page d'accueil d'une boutique de vêtements pour hommes, avec un Design moderne, chic et attirant. Le but est d'inciter le client à venir acheter en boutique. S'agissant d'une page simple, l'utilisation d'un Framework n'est pas nécessaire. Donc HTML, CSS et Javascript uniquement. Il faudra aussi installer une carte afin de pouvoir localiser la boutique. Les images seront générées avec l'aide de l'IA.",
+      challenge: "J'ai créé la page d'accueil d'une boutique de vêtements pour hommes, avec un Design moderne, chic et attirant. Le but est de présenter la boutique et d'inciter le client à venir acheter en boutique. S'agissant d'une page simple, l'utilisation d'un Framework n'est pas nécessaire. Donc HTML, CSS et Javascript uniquement. J'ai aussi installé un plan interactif afin de pouvoir localiser la boutique. Les images sont générées avec l'aide de l'IA.",
       details: [
         "Interface agréable",
         "Design moderne",
