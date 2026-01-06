@@ -435,9 +435,9 @@ const projectsData = [
   },
   {
     id: 16,
-    name: "Projet en cours...",
+    name: "Tic-Tac-Toe Deluxe",
     tech: "React - Javascript - Vibe Coding",
-    text: "Tic-Tac-Toe Deluxe",
+    text: "Jeu de Morpion",
     image: "/images/tictactoe.webp",
     category: "personnel",
     date: "2025-11-10",
@@ -461,6 +461,36 @@ const projectsData = [
       technicalStack: {
         frontend: ["React", "Vite", "JavaScript", "Vibe coding"],
         outils: ["Lovable.dev", "Copilot", "Vercel"]
+      }
+    }
+  },
+  {
+    id: 17,
+    name: "Projet en cours...",
+    tech: "Wordpress",
+    text: "Atelier Passion Code",
+    image: "/images/wordpress.webp",
+    category: "personnel",
+    date: "2026-01-01",
+    links: {
+      live: "https://passioncodeur.wordpress.com/"
+    },
+    description: {
+      infos: "Projet Personnel",
+      date: "Janvier 2026",
+      overview: "Atelier Passion Code",
+      challenge: "WordPress est incontournable dans le monde du web, une part importante des sites étant construits avec ce CMS. J’ai donc développé un site WordPress afin de renforcer mes compétences. Ce projet me permettra de maîtriser la structure du back office, la gestion des contenus (pages, articles, médias), la configuration des menus et widgets, ainsi que les réglages essentiels liés aux performances, à la sécurité et à l’architecture du thème. Étant basé sur une offre gratuite, le site présente toutefois certaines limitations et inclut de la publicité imposée.",
+      details: [
+        "Mise en place et configuration",
+        "Gestion du contenu",
+        "Personnalisation de l'apparence",
+        "Fonctionnalités et extensions",
+        "Sécurité et maintenance",
+        "Optimisation"
+      ],
+      technicalStack: {
+        frontend: ["CMS Wordpress", "Gutenberg", "Thème Nook"],
+        outils: ["Wordpress.com", "Hébergement gratuit"]
       }
     }
   }
