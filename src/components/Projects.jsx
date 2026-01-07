@@ -479,7 +479,7 @@ const projectsData = [
       infos: "Projet Personnel",
       date: "Janvier 2026",
       overview: "Atelier Passion Code",
-      challenge: "WordPress est incontournable dans le monde du web, une part importante des sites étant construits avec ce CMS. J’ai donc développé un site WordPress afin de renforcer mes compétences. Ce projet me permettra de maîtriser la structure du back office, la gestion des contenus (pages, articles, médias), la configuration des menus et widgets, ainsi que les réglages essentiels liés aux performances, à la sécurité et à l’architecture du thème. Étant basé sur une offre gratuite, le site présente toutefois certaines limitations et inclut de la publicité imposée.",
+      challenge: "WordPress est incontournable dans le monde du web, une part importante des sites étant construits avec ce CMS. J’ai donc développé un site WordPress afin de renforcer mes compétences. Ce projet me permettra de maîtriser la structure du back office, la gestion des contenus (pages, articles, médias), la configuration des menus et widgets, ainsi que les réglages essentiels liés aux performances, à la sécurité et à l’architecture du thème. Étant basé sur une offre gratuite, le site présente toutefois certaines limitations et inclut de la publicité imposée. Le sujet du blog est ma formation de Développeur Web.",
       details: [
         "Mise en place et configuration",
         "Gestion du contenu",
