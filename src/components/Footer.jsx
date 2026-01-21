@@ -18,7 +18,7 @@ function Footer() {
         <div className="footer-left-space">
         </div>
         <div className="footer-text">
-        <p>&copy; 2025 - Bernard VERA</p>
+        <p>&copy; {new Date().getFullYear()} - Bernard VERA</p>
         <p>Tous droits réservés</p>
         </div>
         <div className='scroll-to-top' onClick={scrollToTop} aria-label="retour en haut de page">
