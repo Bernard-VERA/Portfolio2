@@ -18,7 +18,7 @@ const skillsData = [
   { name: "SEO", icon: <TbSeo />, level: 90 },
   { name: "GitHub", icon: <FaGithub />, level: 85 },
   { name: "Vibe Coding", icon: <FaCode />, level: 60 },
-  { name: "Wordpress", icon: <FaWordpress />, level: 80 },
+  { name: "WordPress", icon: <FaWordpress />, level: 80 },
 ];
 
 function Skills() {

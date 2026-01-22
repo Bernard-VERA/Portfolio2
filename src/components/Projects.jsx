@@ -467,7 +467,7 @@ const projectsData = [
   {
     id: 17,
     name: "Projet en cours...",
-    tech: "Wordpress",
+    tech: "WordPress",
     text: "Atelier Passion Code",
     image: "/images/wordpress.webp",
     category: "personnel",
@@ -489,8 +489,8 @@ const projectsData = [
         "Optimisation"
       ],
       technicalStack: {
-        frontend: ["CMS Wordpress", "Gutenberg", "Thème Nook"],
-        outils: ["Wordpress.com", "Hébergement gratuit"]
+        frontend: ["CMS WordPress", "Gutenberg", "Thème Nook"],
+        outils: ["WordPress.com", "Hébergement gratuit"]
       }
     }
   }
