@@ -47,11 +47,11 @@ function About() {
         </div>
         <img src="/images/dessin.jpg" alt="Avatar" className="avatar" />
         <p>
-         <br /> Mon objectif : vous offrir un site performant, sécurisé et prêt à soutenir votre activité.<br />
+         <br /> Mon objectif : créer et maintenir des sites performants, sécurisés et intuitifs.<br />
           - Création de sites web modernes, rapides et sur mesure.<br />
           - Refonte et amélioration de sites existants.<br />
           - Maintenance technique et suivi continu.<br />
-          - Optimisation SEO pour améliorer votre visibilité.<br />
+          - Optimisation SEO et référencement.<br />
           - Mise en place et gestion de bases de données.<br />
           - Sécurisation de sites et protection des données.<br />
           - Optimisation des performances (vitesse, UX, stabilité).<br />
