@@ -9,13 +9,13 @@ import '../styles/Skills.css';
 
 // Données des compétences avec leur niveau (A modifier si évolution)
 const skillsData = [
-  { name: "HTML", icon: <FaHtml5 />, level: 90 },
-  { name: "CSS", icon: <FaCss3Alt />, level: 90 },
+  { name: "HTML", icon: <FaHtml5 />, level: 95 },
+  { name: "CSS", icon: <FaCss3Alt />, level: 95 },
   { name: "JavaScript", icon: <FaJs />, level: 80 },
-  { name: "React", icon: <FaReact />, level: 70 },
+  { name: "React", icon: <FaReact />, level: 75 },
   { name: "Node.js", icon: <FaNodeJs />, level: 60 },
   { name: "MongoDB", icon: <TbBrandMongodb />, level: 70 },
-  { name: "SEO", icon: <TbSeo />, level: 90 },
+  { name: "SEO", icon: <TbSeo />, level: 95 },
   { name: "GitHub", icon: <FaGithub />, level: 85 },
   { name: "Vibe Coding", icon: <FaCode />, level: 60 },
   { name: "WordPress", icon: <FaWordpress />, level: 80 },
