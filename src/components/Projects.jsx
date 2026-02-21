@@ -310,36 +310,7 @@ const projectsData = [
       }
     }
   },
-  {
-    id: 11,
-    name: "To-do list",
-    tech: "HTML - CSS - Javascript",
-    text: "Une To-do List simple",
-    image: "/images/todo.webp",
-    category: "personnel",
-    date: "2024-11-15",
-    links: {
-      github: "https://github.com/Bernard-VERA/Simple-To-Do-List",
-      live: "https://bernard-vera.github.io/Simple-To-Do-List/"
-    },
-    description: {
-      infos: "Projet Personnel",
-      date: "Novembre 2024",
-      overview: "Application de gestion de tâches",
-      challenge: "Création d'une To-Do List simple en HTML, JavaScript et CSS, un projet incontournable pour un développeur web. Le site permet d'ajouter et supprimer des tâches via un champ de saisie et un bouton, avec stockage des données en localStorage. Ce projet permet de réviser les bases du JavaScript, comme la manipulation du DOM (document.createElement, appendChild, removeChild), l'ajout d'écouteurs d'événements (addEventListener), et la gestion des données sous forme de tableaux et objets.",
-      details: [
-        "Création d'éléments dynamiquement",
-        "Ajouter des écouteurs d'événements",
-        "Modification du DOM",
-        "LocalStorage",
-        "Sécurité XSS"
-      ],
-      technicalStack: {
-        frontend: ["HTML", "CSS", "JavaScript"],
-        outils: ["LocalStorage", "Sécurité XSS"]
-      }
-    }
-  },
+  // Projet 11 supprimé, après création du projet 18, nouvelle Todo List 
   // Projet 12 supprimé, après création du projet 16, nouveau jeu de Morpion
   {
     id: 13,
@@ -491,6 +462,41 @@ const projectsData = [
       technicalStack: {
         frontend: ["CMS WordPress", "Gutenberg", "Thème Nook"],
         outils: ["WordPress.com", "Hébergement gratuit"]
+      }
+    }
+  },
+   {
+    id: 18,
+    name: "Todo List Deluxe",
+    tech: "HTML - CSS - Javascript",
+    text: "Une Todo List améliorée",
+    image: "/images/todolist.webp",
+    category: "personnel",
+    date: "2026-02-21",
+    links: {
+      github: "https://github.com/Bernard-VERA/Todo-List-Deluxe",
+      live: "https://bernard-vera.github.io/Todo-List-Deluxe/"
+    },
+    description: {
+      infos: "Projet Personnel",
+      date: "Février 2026",
+      overview: "Application de gestion de tâches",
+      challenge: "Création d'une Todo List en HTML, JavaScript et CSS. J’avais déjà créé une première version il y a 15 mois, mais mon niveau ayant progressé, j’ai souhaité proposer une version plus complète et mieux structurée. Cette nouvelle Todo List inclut notamment : la modification d’une tâche existante, la possibilité de marquer une tâche comme réalisée, un message de confirmation avant suppression, une interface plus soignée avec un choix de mode clair ou sombre.",
+      details: [
+        "Manipulation avancée du DOM",
+        "Gestion d’état et logique applicative",
+        "Persistance des données avec localStorage",
+        "Événements et interactions utilisateur",
+        "Mode sombre dynamique",
+        "Validation stricte des entrées utilisateur",
+        "Protection contre les attaques XSS",
+        "Content Security Policy (CSP)",
+        "Stockage local sécurisé",
+        "GitHub Actions pour automatiser la mise en ligne"
+      ],
+      technicalStack: {
+        frontend: ["HTML", "CSS", "JavaScript"],
+        outils: ["LocalStorage","Github Actions", "Sécurité XSS"]
       }
     }
   }
