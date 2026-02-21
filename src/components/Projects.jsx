@@ -9,7 +9,7 @@ import '../styles/Projects.css';
 
 // Données des projets
 const projectsData = [
-  {  
+  {
     id: 1,
     name: "Booki",
     tech: "HTML - CSS",
@@ -92,7 +92,7 @@ const projectsData = [
       ],
       technicalStack: {
         Méthodes: ["Méthodes Agiles", "Scrum", "Kanban", "Personas"],
-        Outils: ["Trello", "Daily.dev", "Feedly", "Wakelet" ]
+        Outils: ["Trello", "Daily.dev", "Feedly", "Wakelet"]
       }
     }
   },
@@ -121,8 +121,8 @@ const projectsData = [
         "Correction de bugs avec Chrome DevTools"
       ],
       technicalStack: {
-        optimisation: ["Lighthouse", "Wave", "Lazy Loading" ],
-        Référencement: ["Schema.org", "Google Rich Snippets", "Balises Meta" ]
+        optimisation: ["Lighthouse", "Wave", "Lazy Loading"],
+        Référencement: ["Schema.org", "Google Rich Snippets", "Balises Meta"]
       }
     }
   },
@@ -157,7 +157,7 @@ const projectsData = [
     }
   },
   {
-    id:6,
+    id: 6,
     name: "Mon vieux grimoire",
     tech: "React - Node - MongoDB - API",
     text: "Site de notation de livres",
@@ -338,7 +338,7 @@ const projectsData = [
       ],
       technicalStack: {
         frontend: ["HTML", "CSS", "JavaScript", "Copilot"],
-        outils: ["Jeton CSRF unique","Local storage", "jsPDF", "Purify.js"]
+        outils: ["Jeton CSRF unique", "Local storage", "jsPDF", "Purify.js"]
       }
     }
   },
@@ -465,7 +465,7 @@ const projectsData = [
       }
     }
   },
-   {
+  {
     id: 18,
     name: "Todo List Deluxe",
     tech: "HTML - CSS - Javascript",
@@ -496,7 +496,7 @@ const projectsData = [
       ],
       technicalStack: {
         frontend: ["HTML", "CSS", "JavaScript"],
-        outils: ["LocalStorage","Github Actions", "Sécurité XSS"]
+        outils: ["LocalStorage", "Github Actions", "Sécurité XSS"]
       }
     }
   }
@@ -564,14 +564,14 @@ function Projects() {
       <div className="modal-overlay" onClick={onClose}>
         <div className="modal-content" onClick={e => e.stopPropagation()}>
           <button className="modal-close" onClick={onClose}><FaX /></button>
-          
+
           <h2>{project.name}</h2>
-          <img 
-            src={project.image} 
-            alt={project.name} 
+          <img
+            src={project.image}
+            alt={project.name}
             className="modal-image"
           />
-          
+
           <div className="modal-description">
             <h3>Infos</h3>
             <p>{project.description.infos}</p>
@@ -581,17 +581,17 @@ function Projects() {
 
             <h3>Aperçu</h3>
             <p>{project.description.overview}</p>
-            
+
             <h3>Challenge</h3>
             <p>{project.description.challenge}</p>
-            
+
             <h3>Points clés</h3>
             <ul>
               {project.description.details.map((detail, index) => (
                 <li key={index}>{detail}</li>
               ))}
             </ul>
-            
+
             <h3>Stack Technique</h3>
             <div className="technical-stack">
               {Object.entries(project.description.technicalStack).map(([category, items]) => (
@@ -608,10 +608,10 @@ function Projects() {
 
             <div className="project-links">
               {project.links?.github && (
-                <a href={project.links.github}target="_blank"rel="noopener noreferrer"className="project-link github"><FaGithub />GitHub </a>
+                <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="project-link github"><FaGithub />GitHub </a>
               )}
               {project.links?.live && (
-                <a href={project.links.live}target="_blank"rel="noopener noreferrer"className="project-link live"><FaGlobe />Site</a>
+                <a href={project.links.live} target="_blank" rel="noopener noreferrer" className="project-link live"><FaGlobe />Site</a>
               )}
             </div>
 
@@ -631,28 +631,28 @@ function Projects() {
       <p>Tri des projets</p>
       <div className="filter-buttons">
         <div className="recentold-buttons">
-          <button 
-            className={filter === 'recent' ? 'active' : ''} 
+          <button
+            className={filter === 'recent' ? 'active' : ''}
             onClick={() => setFilter('recent')}
           >
             Les + récents
           </button>
-          <button 
-            className={filter === 'old' ? 'active' : ''} 
+          <button
+            className={filter === 'old' ? 'active' : ''}
             onClick={() => setFilter('old')}
           >
             Les + anciens
           </button>
         </div>
         <div className="personalschool-buttons">
-          <button 
-            className={filter === 'personal' ? 'active' : ''} 
+          <button
+            className={filter === 'personal' ? 'active' : ''}
             onClick={() => setFilter('personal')}
           >
             Projets personnels
           </button>
-          <button 
-            className={filter === 'school' ? 'active' : ''} 
+          <button
+            className={filter === 'school' ? 'active' : ''}
             onClick={() => setFilter('school')}
           >
             Projets scolaires
@@ -660,22 +660,22 @@ function Projects() {
         </div>
       </div>
       <div ref={projectsRef} className="projects-grid">
-      {filterProjects().map((project) => (
+        {filterProjects().map((project) => (
           <div key={project.id} className="project-card">
-            <img src={project.image} alt={`Illustration du projet ${project.name}`} className="project-image"/>
+            <img src={project.image} alt={`Illustration du projet ${project.name}`} className="project-image" />
             <div className="project-content">
               <h3 className="project-title">{project.name}</h3>
               <p className="project-text">{project.text}</p>
               <p className="project-tech">{project.tech}</p>
-              <button className="project-button"onClick={() => setSelectedProject(project)}>En savoir plus ...</button>
+              <button className="project-button" onClick={() => setSelectedProject(project)}>En savoir plus ...</button>
             </div>
           </div>
         ))}
       </div>
       {selectedProject && (
-        <ProjectModal 
-          project={selectedProject} 
-          onClose={() => setSelectedProject(null)} 
+        <ProjectModal
+          project={selectedProject}
+          onClose={() => setSelectedProject(null)}
         />
       )}
     </div>
