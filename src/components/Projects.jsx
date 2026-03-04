@@ -499,6 +499,38 @@ const projectsData = [
         outils: ["LocalStorage", "Github Actions", "Sécurité XSS"]
       }
     }
+  },
+  {
+    id: 19,
+    name: "Memory",
+    tech: "HTML - CSS - Javascript",
+    text: "Un jeu de mémoire",
+    image: "/images/memory.webp",
+    category: "personnel",
+    date: "2026-03-04",
+    links: {
+      github: "https://github.com/Bernard-VERA/Memory",
+      live: "https://bernard-vera.github.io/Memory/"
+    },
+    description: {
+      infos: "Projet Personnel",
+      date: "Mars 2026",
+      overview: "Jeu de mémoire : Memory",
+      challenge: "Création d'un jeu de mémoire en HTML, JavaScript et CSS. Le jeu doit proposer une expérience fluide, animée et responsive. Le projet inclut trois niveaux de difficulté, des animations visuelles, un compteur de coups joués, un écran de victoire, et pour la première fois, des effets sonores.",
+      details: [
+        "Manipulation avancée du DOM",
+        "Gestion d’état d'un jeu interactif",
+        "Interface responsive",
+        "Gestion des événements et du reset",
+        "Animations CSS",
+        "Gestion du son via Web Audio API",
+        "Navigation multi-écrans"
+      ],
+      technicalStack: {
+        frontend: ["HTML", "CSS", "JavaScript"],
+        outils: ["Web Audio API", "Github Pages", "Algorithme Fisher-Yates"]
+      }
+    }
   }
   // Ajouter un nouveau projet ici. Ne pas oublier de mettre une virgule après le projet précédent.
 ];
