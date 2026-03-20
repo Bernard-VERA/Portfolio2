@@ -27,7 +27,7 @@ Il s'agit d'un portfolio à la fois simple et détaillé. Chaque section est bie
 
 
 # Si vous clonez le projet
-
+Faire : npm install
 Pour lancer le projet faire: npm run dev
 
 # Utilisation de React + Vite
