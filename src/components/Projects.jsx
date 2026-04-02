@@ -547,7 +547,7 @@ const projectsData = [
       infos: "Projet Personnel",
       date: "Avril 2026",
       overview: "Suivi des dépenses liées à vos véhicules",
-      challenge: "AutoDépenses est une application web en cours de développement visant à centraliser et suivre facilement toutes les dépenses liées à vos véhicules : carburant, entretien, réparations, accessoires, et plus encore. L’objectif est d’offrir une vision claire de l’historique des coûts et d’aider à mieux anticiper les dépenses futures. Le site n'est pas encore déployé, pour l'instant",
+      challenge: "AutoDépenses est une application web en cours de développement visant à centraliser et suivre facilement toutes les dépenses liées à vos véhicules : carburant, entretien, réparations, accessoires, et plus encore. L’objectif est d’offrir une vision claire de l’historique des coûts et d’aider à mieux anticiper les dépenses futures. Le site n'est pas encore déployé, pour l'instant.",
       details: [
         "Création du site en deux étapes",
         "Première étape: Frontend",
