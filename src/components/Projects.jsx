@@ -531,6 +531,37 @@ const projectsData = [
         outils: ["Web Audio API", "Github Pages", "Algorithme Fisher-Yates"]
       }
     }
+  },
+   {
+    id: 20,
+    name: "AutoDépenses",
+    tech: "React - Vite - Node.Js",
+    text: "Gestion des dépenses",
+    image: "/images/autodepenses.webp",
+    category: "personnel",
+    date: "2026-04-02",
+    links: {
+      github: "https://github.com/Bernard-VERA/autodepenses-frontend"
+    },
+    description: {
+      infos: "Projet Personnel",
+      date: "Avril 2026",
+      overview: "Suivi des dépenses liées à vos véhicules",
+      challenge: "AutoDépenses est une application web en cours de développement visant à centraliser et suivre facilement toutes les dépenses liées à vos véhicules : carburant, entretien, réparations, accessoires, et plus encore. L’objectif est d’offrir une vision claire de l’historique des coûts et d’aider à mieux anticiper les dépenses futures. Le site n'est pas encore déployé, pour l'instant",
+      details: [
+        "Création du site en deux étapes",
+        "Première étape: Frontend",
+        "Interface intuitive et responsive",
+        "Gestion des données dans le LocalStorage",
+        "Seconde étape : Backend",
+        "Création d'une authentification utilisateur",
+        "Création d'une base de données"
+      ],
+      technicalStack: {
+        frontend: ["React", "Vite", "JavaScript", "Vibe coding",],
+        outils: ["Node.js", "Express", "API", "MongoDB",]
+      }
+    }
   }
   // Ajouter un nouveau projet ici. Ne pas oublier de mettre une virgule après le projet précédent.
 ];
