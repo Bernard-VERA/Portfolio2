@@ -534,7 +534,7 @@ const projectsData = [
   },
    {
     id: 20,
-    name: "AutoDépenses",
+    name: "Projet en cours...",
     tech: "React - Vite - Node.Js",
     text: "Gestion des dépenses",
     image: "/images/autodepenses.webp",
