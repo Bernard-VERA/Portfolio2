@@ -25,6 +25,9 @@ J'ai créé ce portfolio en partant de zéro.
 
 Il s'agit d'un portfolio à la fois simple et détaillé. Chaque section est bien différenciée. Les compétences sont indiquées par leur nom, leur logo et une barre de progression. Chaque projet comporte une photo, un nom et une description, puis est détaillé dans une modale ( sans que ce soit trop long à lire ). Le site est entièrement Responsive. Un petit jeu de Memory permet au visiteur de s'amuser, à la fois pour renforcer l'attractivité du site, et prouver mes compétences. L'ajout de nouveaux projets se fait facilement en ajoutant quelques lignes de code et une image.
 
+<br/>
+Vous pouvez voir le projet sur : <a href="https://bv-portfolio.vercel.app/" target="_blank">Mon portfolio</a>  
+
 
 # Si vous clonez le projet
 Faire : npm install<br/>
