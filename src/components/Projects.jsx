@@ -541,13 +541,14 @@ const projectsData = [
     category: "personnel",
     date: "2026-04-02",
     links: {
-      github: "https://github.com/Bernard-VERA/autodepenses-frontend"
+      github: "https://github.com/Bernard-VERA/autodepenses-frontend",
+      live: "https://bernard-vera.github.io/autodepenses-frontend/"
     },
     description: {
       infos: "Projet Personnel",
       date: "Avril 2026",
       overview: "Suivi des dépenses liées à vos véhicules",
-      challenge: "AutoDépenses est une application web en cours de développement visant à centraliser et suivre facilement toutes les dépenses liées à vos véhicules : carburant, entretien, réparations, accessoires, et plus encore. L’objectif est d’offrir une vision claire de l’historique des coûts et d’aider à mieux anticiper les dépenses futures. Le site n'est pas encore déployé, pour l'instant.",
+      challenge: "AutoDépenses est une application web en cours de développement visant à centraliser et suivre facilement toutes les dépenses liées à vos véhicules : carburant, entretien, réparations, accessoires, et plus encore. L’objectif est d’offrir une vision claire de l’historique des coûts et d’aider à mieux anticiper les dépenses futures. La partie Frontend du site est déployée, mais sans backend pour l'instant. Les données sont sauvegardées dans le LocalStorage. La partie Backend est en cours de création.",
       details: [
         "Création du site en deux étapes",
         "Première étape: Frontend",
