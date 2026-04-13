@@ -22,6 +22,7 @@ J'ai créé ce portfolio en partant de zéro.
 - Le site est Responsive.
 - Le référencement et le SEO sont optimisés.
 - Le site a passé les tests W3C, Wave et Lighthouse.
+- Ajout d’une politique de sécurité du contenu (CSP) pour renforcer la protection du site.
 
 Il s'agit d'un portfolio à la fois simple et détaillé. Chaque section est bien différenciée. Les compétences sont indiquées par leur nom, leur logo et une barre de progression. Chaque projet comporte une photo, un nom et une description, puis est détaillé dans une modale ( sans que ce soit trop long à lire ). Le site est entièrement Responsive. Un petit jeu de Memory permet au visiteur de s'amuser, à la fois pour renforcer l'attractivité du site, et prouver mes compétences. L'ajout de nouveaux projets se fait facilement en ajoutant quelques lignes de code et une image.
 
