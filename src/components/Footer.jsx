@@ -21,7 +21,7 @@ function Footer() {
         <p>&copy; {new Date().getFullYear()} - Bernard VERA</p>
         <p>Tous droits réservés</p>
         </div>
-        <div className='scroll-to-top' onClick={scrollToTop} aria-label="retour en haut de page">
+        <div className='scroll-to-top' onClick={scrollToTop} tabindex="0" aria-label="retour en haut de page">
         <FaArrowAltCircleUp />
         </div>
       </div>
