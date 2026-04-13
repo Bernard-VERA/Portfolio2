@@ -103,7 +103,7 @@ function MemoryGame() {
       </p>
       <div className="game-stats">
         <span>Coups : {moves}</span>
-        <button className="reset-button" onClick={initializeGame}>
+        <button className="reset-button" tabIndex={-1} onClick={initializeGame}>
           Nouvelle partie
         </button>
       </div>
