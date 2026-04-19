@@ -475,7 +475,7 @@ const projectsData = [
     date: "2026-02-21",
     links: {
       github: "https://github.com/Bernard-VERA/Todo-List-Deluxe",
-      live: "https://bernard-vera.github.io/Todo-List-Deluxe/"
+      live: "https://todo-list-deluxe.vercel.app/"
     },
     description: {
       infos: "Projet Personnel",
@@ -491,12 +491,11 @@ const projectsData = [
         "Validation stricte des entrées utilisateur",
         "Protection contre les attaques XSS",
         "Content Security Policy (CSP)",
-        "Stockage local sécurisé",
-        "GitHub Actions pour automatiser la mise en ligne"
+        "Stockage local sécurisé"
       ],
       technicalStack: {
         frontend: ["HTML", "CSS", "JavaScript"],
-        outils: ["LocalStorage", "Github Actions", "Sécurité XSS"]
+        outils: ["LocalStorage", "Sécurité XSS", "Vercel"]
       }
     }
   },
