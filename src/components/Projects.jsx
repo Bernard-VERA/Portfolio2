@@ -322,7 +322,7 @@ const projectsData = [
     date: "2025-03-15",
     links: {
       github: "https://github.com/Bernard-VERA/Projet-Salaire",
-      live: "https://bernard-vera.github.io/Projet-Salaire/"
+      live: "https://bulletin-salaire.vercel.app/"
     },
     description: {
       infos: "Projet Personnel",
@@ -334,7 +334,8 @@ const projectsData = [
         "Validation des données",
         "Sécurisation des formulaires",
         "Calculs automatiques",
-        "Export PDF"
+        "Export PDF",
+        "CSP et Headers de sécurité"
       ],
       technicalStack: {
         frontend: ["HTML", "CSS", "JavaScript", "Copilot"],
