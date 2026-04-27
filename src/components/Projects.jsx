@@ -548,7 +548,7 @@ const projectsData = [
       infos: "Projet Personnel",
       date: "Avril 2026",
       overview: "Suivi des dépenses liées à vos véhicules",
-      challenge: "AutoDépenses est une application web en cours de développement visant à centraliser et suivre facilement toutes les dépenses liées à vos véhicules : carburant, entretien, réparations, accessoires, et plus encore. L’objectif est d’offrir une vision claire de l’historique des coûts et d’aider à mieux anticiper les dépenses futures. La partie Frontend du site est déployée, mais sans backend pour l'instant. Les données sont sauvegardées dans le LocalStorage. La partie Backend est en cours de création.",
+      challenge: "AutoDépenses est une application web en cours de développement visant à centraliser et suivre facilement toutes les dépenses liées à vos véhicules : carburant, entretien, réparations, accessoires, et plus encore. L’objectif est d’offrir une vision claire de l’historique des coûts et d’aider à mieux anticiper les dépenses futures. La partie Frontend du site est déployée, mais sans backend pour l'instant. Les données sont sauvegardées dans le LocalStorage. La partie Backend est en cours de création ( Mais pas encore accessible ). Les données  seront stockées dans une base de données, avec authentification de l'utilisateur.",
       details: [
         "Création du site en deux étapes",
         "Première étape: Frontend",
@@ -556,7 +556,8 @@ const projectsData = [
         "Gestion des données dans le LocalStorage",
         "Seconde étape : Backend",
         "Création d'une authentification utilisateur",
-        "Création d'une base de données"
+        "Création d'une base de données",
+        "Supression du stockage dans le localStorage"
       ],
       technicalStack: {
         frontend: ["React", "Vite", "JavaScript", "Vibe coding",],
